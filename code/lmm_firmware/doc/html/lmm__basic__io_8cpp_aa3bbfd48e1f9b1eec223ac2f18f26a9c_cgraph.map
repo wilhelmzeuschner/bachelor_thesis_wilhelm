@@ -1,0 +1,4 @@
+<map id="handleButtons" name="handleButtons">
+<area shape="rect" id="node1" title="Handles the button presses Currently it&#39;s only used to select which profile for the characteristic cu..." alt="" coords="5,5,111,32"/>
+<area shape="rect" id="node2" href="$lmm__basic__io_8cpp.html#ad3c19b428eb5c0de942dd545f88186af" title="Sets the LEDs On or Off." alt="" coords="159,5,231,32"/>
+</map>

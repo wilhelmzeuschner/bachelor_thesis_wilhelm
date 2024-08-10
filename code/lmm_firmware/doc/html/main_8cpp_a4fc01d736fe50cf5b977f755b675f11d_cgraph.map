@@ -1,0 +1,16 @@
+<map id="setup" name="setup">
+<area shape="rect" id="node1" title=" " alt="" coords="5,208,60,235"/>
+<area shape="rect" id="node2" href="$lmm__dac__sig_8cpp.html#a3f0ab4819ed7e40df2e7437a6f7dab92" title="Calculates the corresponding output voltage for a given ADC measurement Assumes a regression with deg..." alt="" coords="108,5,277,32"/>
+<area shape="rect" id="node3" href="$lmm__basic__io_8cpp.html#a6b8d379b893c8acae82ca70f8284f4be" title="Verifies that all conditions are met and the board can work correctly Blinks the ERR LED if errors ar..." alt="" coords="123,157,263,184"/>
+<area shape="rect" id="node6" href="$lmm__basic__io_8cpp.html#ad3c19b428eb5c0de942dd545f88186af" title="Sets the LEDs On or Off." alt="" coords="356,107,428,133"/>
+<area shape="rect" id="node7" href="$lmm__basic__io_8cpp.html#aa3bbfd48e1f9b1eec223ac2f18f26a9c" title="Handles the button presses Currently it&#39;s only used to select which profile for the characteristic cu..." alt="" coords="140,56,245,83"/>
+<area shape="rect" id="node8" href="$lmm__basic__io_8cpp.html#abe48a3b15d398790ff1849b3faefc79e" title="Initializes all IO pins to their respective functions (input / output) and configures the relevant IO..." alt="" coords="153,411,232,437"/>
+<area shape="rect" id="node11" href="$lmm__basic__io_8cpp.html#a0ca12b3481773082d4996183a865873e" title="Initializes the UART port and sends some basic info about the program." alt="" coords="156,259,229,285"/>
+<area shape="rect" id="node12" href="$lmm__electronic__sensor_8cpp.html#a951374458959410a1fd10b7b5d14af7e" title="Measures the analog output of the electronic sensor (HFM 5) (air mass passing through)" alt="" coords="129,309,256,336"/>
+<area shape="rect" id="node13" href="$lmm__basic__io_8cpp.html#a847dc30b8e3175fad5ad5cd1b6861f0b" title="Turns the relay either on or off based on the measured airflow. The threshold value and hysteresis is..." alt="" coords="156,360,229,387"/>
+<area shape="rect" id="node14" href="$lmm__dac__sig_8cpp.html#a3821d588adcefdbc0ede473d1de0721f" title="Sets an output voltage on the SIG&#45;Pin DAC101C085CIMM/NOPB https://www.ti.com/lit/ds/symlink/dac101c08..." alt="" coords="139,208,246,235"/>
+<area shape="rect" id="node4" href="$lmm__basic__io_8cpp.html#aee9575f98e70a11b448eeb07f7fc1916" title="measures the board&#39;s supply voltage in mV" alt="" coords="325,183,459,209"/>
+<area shape="rect" id="node5" href="$lmm__basic__io_8cpp.html#a8e23c9421f6663303ea22e4969e2f6c1" title="Calculates the supply voltage of the IC using the internal 1.1V reference. Source: https://code...." alt="" coords="507,183,577,209"/>
+<area shape="rect" id="node9" href="$lmm__basic__io_8cpp.html#a19bf620bc35271ed05e3063f0c81e652" title="ISR for a pushbutton, sets a global flag that is read by the main loop." alt="" coords="341,385,443,412"/>
+<area shape="rect" id="node10" href="$lmm__basic__io_8cpp.html#aca3c49d8a19d1ba145c46494a2d77041" title="ISR for a pushbutton, sets a global flag that is read by the main loop." alt="" coords="341,436,443,463"/>
+</map>

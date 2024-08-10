@@ -1,0 +1,6 @@
+<map id="checkForLMMErrors" name="checkForLMMErrors">
+<area shape="rect" id="node1" title="Verifies that all conditions are met and the board can work correctly Blinks the ERR LED if errors ar..." alt="" coords="5,31,145,57"/>
+<area shape="rect" id="node2" href="$lmm__basic__io_8cpp.html#aee9575f98e70a11b448eeb07f7fc1916" title="measures the board&#39;s supply voltage in mV" alt="" coords="193,5,327,32"/>
+<area shape="rect" id="node4" href="$lmm__basic__io_8cpp.html#ad3c19b428eb5c0de942dd545f88186af" title="Sets the LEDs On or Off." alt="" coords="224,56,296,83"/>
+<area shape="rect" id="node3" href="$lmm__basic__io_8cpp.html#a8e23c9421f6663303ea22e4969e2f6c1" title="Calculates the supply voltage of the IC using the internal 1.1V reference. Source: https://code...." alt="" coords="375,5,445,32"/>
+</map>

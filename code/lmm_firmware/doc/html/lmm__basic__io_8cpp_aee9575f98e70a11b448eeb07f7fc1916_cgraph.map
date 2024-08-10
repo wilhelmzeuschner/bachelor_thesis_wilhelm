@@ -1,0 +1,4 @@
+<map id="measureVBATTmV" name="measureVBATTmV">
+<area shape="rect" id="node1" title="measures the board&#39;s supply voltage in mV" alt="" coords="5,5,139,32"/>
+<area shape="rect" id="node2" href="$lmm__basic__io_8cpp.html#a8e23c9421f6663303ea22e4969e2f6c1" title="Calculates the supply voltage of the IC using the internal 1.1V reference. Source: https://code...." alt="" coords="187,5,257,32"/>
+</map>

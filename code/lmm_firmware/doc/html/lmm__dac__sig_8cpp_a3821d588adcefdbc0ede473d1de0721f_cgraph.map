@@ -1,0 +1,5 @@
+<map id="setSIGVoltage" name="setSIGVoltage">
+<area shape="rect" id="node1" title="Sets an output voltage on the SIG&#45;Pin DAC101C085CIMM/NOPB https://www.ti.com/lit/ds/symlink/dac101c08..." alt="" coords="5,5,112,32"/>
+<area shape="rect" id="node2" href="$lmm__basic__io_8cpp.html#aee9575f98e70a11b448eeb07f7fc1916" title="measures the board&#39;s supply voltage in mV" alt="" coords="160,5,293,32"/>
+<area shape="rect" id="node3" href="$lmm__basic__io_8cpp.html#a8e23c9421f6663303ea22e4969e2f6c1" title="Calculates the supply voltage of the IC using the internal 1.1V reference. Source: https://code...." alt="" coords="341,5,412,32"/>
+</map>
