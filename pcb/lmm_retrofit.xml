@@ -1,0 +1,3126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>S:\OneDrive\OneDrive - stud.hs-emden-leer.de\Hochschule\Bachelorarbeit\micro-projects-lmm\15_source-hardware\kicad_files\lmm_retrofit.kicad_sch</source>
+    <date>22/05/2022 21:42:45</date>
+    <tool>Eeschema (6.0.5)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>LMM Retrofit</title>
+        <company>Hans Wilhelm Zeuschner</company>
+        <rev>1</rev>
+        <date>2022-05-08</date>
+        <source>lmm_retrofit.kicad_sch</source>
+        <comment number="1" value="Zweitprüfer: Ewald Zimmermann"/>
+        <comment number="2" value="Betreuer: Prof. Dr. Carsten Koch"/>
+        <comment number="3" value="Hochschule Emden Leer"/>
+        <comment number="4" value="Bacheloarbeit SoSe 2022"/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/USB to UART/" tstamps="/a72f5a12-53b8-4376-867f-f3f62566bbde/">
+      <title_block>
+        <title>LMM Retrofit</title>
+        <company>Hans Wilhelm Zeuschner</company>
+        <rev>1</rev>
+        <date>2022-05-08</date>
+        <source>usb_to_uart.kicad_sch</source>
+        <comment number="1" value="Zweitprüfer: Ewald Zimmermann"/>
+        <comment number="2" value="Betreuer: Prof. Dr. Carsten Koch"/>
+        <comment number="3" value="Hochschule Emden Leer"/>
+        <comment number="4" value="Bacheloarbeit SoSe 2022"/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Car_Connectors_And_DAC/" tstamps="/e509f35e-cb04-4cdb-be88-2ba12fde284d/">
+      <title_block>
+        <title>LMM Retrofit</title>
+        <company>Hans Wilhelm Zeuschner</company>
+        <rev>1</rev>
+        <date>2022-05-08</date>
+        <source>Car_Connectors_And_DAC.kicad_sch</source>
+        <comment number="1" value="Zweitprüfer: Ewald Zimmermann"/>
+        <comment number="2" value="Betreuer: Prof. Dr. Carsten Koch"/>
+        <comment number="3" value="Hochschule Emden Leer"/>
+        <comment number="4" value="Bacheloarbeit SoSe 2022"/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.yuden.co.jp/productdata/catalog/mlcc_all_hq_e.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">587-3508-1-ND</field>
+        <field name="MPN">UMK212B7104KGHT</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Digi-Key Part Number" value="587-3508-1-ND"/>
+      <property name="MPN" value="UMK212B7104KGHT"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lmm_retrofit.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a14bace0-af28-467e-848d-e23e27d29b8e</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.yuden.co.jp/productdata/catalog/mlcc_all_hq_e.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">587-3508-1-ND</field>
+        <field name="MPN">UMK212B7104KGHT</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Digi-Key Part Number" value="587-3508-1-ND"/>
+      <property name="MPN" value="UMK212B7104KGHT"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lmm_retrofit.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eeac2242-385c-4bec-ba78-f89fc717a175</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=MCAST21GBB5106MTNA01&amp;u=M</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">587-6440-1-ND</field>
+        <field name="MPN">TMK212BBJ106MGHT</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Digi-Key Part Number" value="587-6440-1-ND"/>
+      <property name="MPN" value="TMK212BBJ106MGHT"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lmm_retrofit.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1708dd9c-4a9b-4e4a-be89-07b782ee15d4</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.yuden.co.jp/productdata/catalog/mlcc_all_hq_e.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">587-3508-1-ND</field>
+        <field name="MPN">UMK212B7104KGHT</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Digi-Key Part Number" value="587-3508-1-ND"/>
+      <property name="MPN" value="UMK212B7104KGHT"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lmm_retrofit.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c3cdce74-aba5-4051-bde0-c4af2cc5c4d0</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.yuden.co.jp/productdata/catalog/mlcc_all_hq_e.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">587-3508-1-ND</field>
+        <field name="MPN">UMK212B7104KGHT</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Digi-Key Part Number" value="587-3508-1-ND"/>
+      <property name="MPN" value="UMK212B7104KGHT"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lmm_retrofit.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2f57bda8-a2a9-4cd2-a3d8-817ee53c1b5a</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=MCAST21GBB5106MTNA01&amp;u=M</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">587-6440-1-ND</field>
+        <field name="MPN">TMK212BBJ106MGHT</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Digi-Key Part Number" value="587-6440-1-ND"/>
+      <property name="MPN" value="TMK212BBJ106MGHT"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lmm_retrofit.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c9270b5f-f6ab-401d-a4d8-de4d452bcd9a</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.yuden.co.jp/productdata/catalog/mlcc_all_hq_e.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">587-3508-1-ND</field>
+        <field name="MPN">UMK212B7104KGHT</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Digi-Key Part Number" value="587-3508-1-ND"/>
+      <property name="MPN" value="UMK212B7104KGHT"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lmm_retrofit.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2a01e805-a0ed-473b-baef-30cc079db611</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.yuden.co.jp/productdata/catalog/mlcc_all_hq_e.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">587-3508-1-ND</field>
+        <field name="MPN">UMK212B7104KGHT</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Digi-Key Part Number" value="587-3508-1-ND"/>
+      <property name="MPN" value="UMK212B7104KGHT"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lmm_retrofit.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d61d2037-a3c7-461e-83b8-7ebcd9138442</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.yuden.co.jp/productdata/catalog/mlcc_all_hq_e.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">587-3508-1-ND</field>
+        <field name="MPN">UMK212B7104KGHT</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Digi-Key Part Number" value="587-3508-1-ND"/>
+      <property name="MPN" value="UMK212B7104KGHT"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lmm_retrofit.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>80fc59d7-a9a8-4a8e-a5d5-d23eb7968d74</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.yuden.co.jp/productdata/catalog/mlcc_all_hq_e.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">587-3508-1-ND</field>
+        <field name="MPN">UMK212B7104KGHT</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Digi-Key Part Number" value="587-3508-1-ND"/>
+      <property name="MPN" value="UMK212B7104KGHT"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lmm_retrofit.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a8baf8eb-a7b7-4e06-9250-ef5919fafedf</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=MCAST21GBB5106MTNA01&amp;u=M</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">587-6440-1-ND</field>
+        <field name="MPN">TMK212BBJ106MGHT</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Digi-Key Part Number" value="587-6440-1-ND"/>
+      <property name="MPN" value="TMK212BBJ106MGHT"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lmm_retrofit.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ab09774e-407c-4c27-8fcc-489aa0e2ca9d</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=MCAST21GBB5106MTNA01&amp;u=M</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">587-6440-1-ND</field>
+        <field name="MPN">TMK212BBJ106MGHT</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Digi-Key Part Number" value="587-6440-1-ND"/>
+      <property name="MPN" value="TMK212BBJ106MGHT"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lmm_retrofit.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2b0b5aee-2b0a-4c7f-a8ac-25c68e7d5f2f</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>ERROR</value>
+      <footprint>lmm_footprints:LED_0805_2012Metric_Silkscreen_Text</footprint>
+      <datasheet>https://www.we-online.com/katalog/datasheet/150080RS75000.pdf</datasheet>
+      <fields>
+        <field name="Color">Red</field>
+        <field name="Digi-Key Part Number">732-4984-1-ND</field>
+        <field name="MPN">150080RS75000</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="Digi-Key Part Number" value="732-4984-1-ND"/>
+      <property name="MPN" value="150080RS75000"/>
+      <property name="Color" value="Red"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lmm_retrofit.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>22896c15-a0ff-436c-83fb-beef8567f7cb</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>CDBA540-HF</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Comchip%20PDFs/CDBA540-HF-CDBA5200-HF_RevC.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">641-1707-1-ND</field>
+        <field name="MPN">CDBA540-HF</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky_Small" description="Schottky diode, small symbol"/>
+      <property name="Digi-Key Part Number" value="641-1707-1-ND"/>
+      <property name="MPN" value="CDBA540-HF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lmm_retrofit.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d9f33c0f-0c3f-4ef8-a18c-3dabca246640</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>LED2</value>
+      <footprint>lmm_footprints:LED_0805_2012Metric_Silkscreen_Text</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/445/150080AS75000-1879102.pdf</datasheet>
+      <fields>
+        <field name="Color">Amber</field>
+        <field name="Digi-Key Part Number">732-150080AS75000CT-ND</field>
+        <field name="MPN">150080AS75000</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="Digi-Key Part Number" value="732-150080AS75000CT-ND"/>
+      <property name="MPN" value="150080AS75000"/>
+      <property name="Color" value="Amber"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lmm_retrofit.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6ae72f6a-9bcf-402e-9652-a3a73cae6b74</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>LED1</value>
+      <footprint>lmm_footprints:LED_0805_2012Metric_Silkscreen_Text</footprint>
+      <datasheet>https://www.we-online.com/katalog/datasheet/150080BS75000.pdf</datasheet>
+      <fields>
+        <field name="Color">Blue</field>
+        <field name="Digi-Key Part Number">732-4982-1-ND</field>
+        <field name="MPN">150080BS75000</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="Digi-Key Part Number" value="732-4982-1-ND"/>
+      <property name="MPN" value="150080BS75000"/>
+      <property name="Color" value="Blue"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lmm_retrofit.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9f3aeac0-b712-4c94-8f90-f593e3b09e2c</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>PWR</value>
+      <footprint>lmm_footprints:LED_0805_2012Metric_Silkscreen_Text</footprint>
+      <datasheet>https://www.we-online.com/katalog/datasheet/150080GS75000.pdf</datasheet>
+      <fields>
+        <field name="Color">Green</field>
+        <field name="Digi-Key Part Number">732-4983-1-ND</field>
+        <field name="MPN">150080GS75000</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="Digi-Key Part Number" value="732-4983-1-ND"/>
+      <property name="MPN" value="150080GS75000"/>
+      <property name="Color" value="Green"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lmm_retrofit.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aced38f3-e54c-4200-a305-f6c2f3dc4f3f</tstamps>
+    </comp>
+    <comp ref="FB1">
+      <value>1k@100MHz</value>
+      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <datasheet>https://abracon.com/Magnetics/new/ACML-0805.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">535-ACML-0805-102-TCT-ND</field>
+        <field name="MPN">ACML-0805-102-T</field>
+      </fields>
+      <libsource lib="Device" part="FerriteBead_Small" description="Ferrite bead, small symbol"/>
+      <property name="Digi-Key Part Number" value="535-ACML-0805-102-TCT-ND"/>
+      <property name="MPN" value="ACML-0805-102-T"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lmm_retrofit.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fad47254-efca-425a-8468-c9841e748667</tstamps>
+    </comp>
+    <comp ref="FID1">
+      <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_0.5mm_Mask1mm</footprint>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lmm_retrofit.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>466f60b4-e901-4220-912a-f676a1369372</tstamps>
+    </comp>
+    <comp ref="FID2">
+      <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_0.5mm_Mask1mm</footprint>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lmm_retrofit.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9870bc46-5e72-4134-8229-565801accb13</tstamps>
+    </comp>
+    <comp ref="FID3">
+      <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_0.5mm_Mask1mm</footprint>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lmm_retrofit.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c43d0665-6757-4abe-b2e2-69b84b491269</tstamps>
+    </comp>
+    <comp ref="FID4">
+      <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_0.5mm_Mask1mm</footprint>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lmm_retrofit.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d760ee21-fa43-4593-b711-fc78857a3b57</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <fields>
+        <field name="DNF">Do not fit</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="DNF" value="Do not fit"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lmm_retrofit.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c92f7d7f-eb03-4135-8813-9895c9480f88</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <fields>
+        <field name="DNF">Do not fit</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="DNF" value="Do not fit"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lmm_retrofit.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0a380f22-5252-4c14-8b2a-f698430db13e</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <fields>
+        <field name="DNF">Do not fit</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="DNF" value="Do not fit"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lmm_retrofit.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>66b646f5-70c1-43aa-8e29-d631619f22c2</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <fields>
+        <field name="DNF">Do not fit</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="DNF" value="Do not fit"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lmm_retrofit.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dfb7f3d9-55f4-4601-9c1c-5056879156e8</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>ICSP</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Horizontal</footprint>
+      <datasheet>https://app.adam-tech.com/products/download/data_sheet/200508/ph2ra-xx-ua-data-sheet.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">2057-PH2RA-06-UA-ND</field>
+        <field name="MPN">PH2RA-06-UA</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x03_Odd_Even" description="Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Digi-Key Part Number" value="2057-PH2RA-06-UA-ND"/>
+      <property name="MPN" value="PH2RA-06-UA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lmm_retrofit.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d031e6ba-379a-4fba-9f1f-58856ab98292</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>PC</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Horizontal</footprint>
+      <datasheet>https://media.metz-connect.com/files/171/Data_sheet_FR202XXHBNN.PDF</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">1849-FR20206HBNN-ND</field>
+        <field name="MPN">FR20206HBNN</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x06_Female" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Digi-Key Part Number" value="1849-FR20206HBNN-ND"/>
+      <property name="MPN" value="FR20206HBNN"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lmm_retrofit.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fa539b66-47b0-4ac1-8912-3d9af7187779</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1773204-3&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">A130140CT-ND</field>
+        <field name="MPN">CRGCQ0805J10K</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Digi-Key Part Number" value="A130140CT-ND"/>
+      <property name="MPN" value="CRGCQ0805J10K"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lmm_retrofit.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a6f6e3a3-efda-4e8c-bdeb-018202b9f067</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1773204-3&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">A130140CT-ND</field>
+        <field name="MPN">CRGCQ0805J10K</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Digi-Key Part Number" value="A130140CT-ND"/>
+      <property name="MPN" value="CRGCQ0805J10K"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lmm_retrofit.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d6a8162c-ca14-4881-8b2c-a1da3b35e2be</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1773204-3&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">A130140CT-ND</field>
+        <field name="MPN">CRGCQ0805J10K</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Digi-Key Part Number" value="A130140CT-ND"/>
+      <property name="MPN" value="CRGCQ0805J10K"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lmm_retrofit.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7624c0a4-e66c-44e3-ae55-cda30304a136</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1773204-3&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">A130140CT-ND</field>
+        <field name="MPN">CRGCQ0805J10K</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Digi-Key Part Number" value="A130140CT-ND"/>
+      <property name="MPN" value="CRGCQ0805J10K"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lmm_retrofit.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e39eabe2-b149-4536-9221-56ff033c9835</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1773204-3&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">A130140CT-ND</field>
+        <field name="MPN">CRGCQ0805J10K</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Digi-Key Part Number" value="A130140CT-ND"/>
+      <property name="MPN" value="CRGCQ0805J10K"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lmm_retrofit.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>90bbd076-15a4-4017-bac5-8ad2574362d8</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1773204-3&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">A129749CT-ND</field>
+        <field name="MPN">CRGCQ0805F1K0</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Digi-Key Part Number" value="A129749CT-ND"/>
+      <property name="MPN" value="CRGCQ0805F1K0"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lmm_retrofit.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>64077ffe-d21d-4693-b1ca-2a5d8a1d9cc7</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1773204-3&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">A130140CT-ND</field>
+        <field name="MPN">CRGCQ0805J10K</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Digi-Key Part Number" value="A130140CT-ND"/>
+      <property name="MPN" value="CRGCQ0805J10K"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lmm_retrofit.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a0f5885b-b4b3-4a8f-99d6-79fa9e3adc0a</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1773204-3&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">A129749CT-ND</field>
+        <field name="MPN">CRGCQ0805F1K0</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Digi-Key Part Number" value="A129749CT-ND"/>
+      <property name="MPN" value="CRGCQ0805F1K0"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lmm_retrofit.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>761b1a86-fc56-4d00-93e8-24b888e108fc</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1773204-3&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">A130140CT-ND</field>
+        <field name="MPN">CRGCQ0805J10K</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Digi-Key Part Number" value="A130140CT-ND"/>
+      <property name="MPN" value="CRGCQ0805J10K"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lmm_retrofit.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>297517dc-c6ff-4640-a63b-3c7fc0105479</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1773204&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">A126379CT-ND</field>
+        <field name="MPN">CRG0805F5K1</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Digi-Key Part Number" value="A126379CT-ND"/>
+      <property name="MPN" value="CRG0805F5K1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lmm_retrofit.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a9c14d00-d74f-44a0-a73d-c4589ea6dc84</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1773204&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">A126379CT-ND</field>
+        <field name="MPN">CRG0805F5K1</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Digi-Key Part Number" value="A126379CT-ND"/>
+      <property name="MPN" value="CRG0805F5K1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lmm_retrofit.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b00dee99-fbd7-48e6-9397-12a776565035</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>Reset</value>
+      <footprint>lmm_footprints:PTS815_SMT_Push_Button</footprint>
+      <datasheet>https://www.ckswitches.com/media/2728/pts815.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">CKN12216-1-ND</field>
+        <field name="MPN">PTS815 SJK 250 SMTR LFS</field>
+      </fields>
+      <libsource lib="lmm_retrofit" part="CKN12216-1-ND" description="Push button switch, four pins, both channels connected"/>
+      <property name="Digi-Key Part Number" value="CKN12216-1-ND"/>
+      <property name="MPN" value="PTS815 SJK 250 SMTR LFS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lmm_retrofit.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>55353deb-c30f-49fc-822a-12b7c68d11ab</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>BTN2</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm_H9.5mm</footprint>
+      <datasheet>https://www.cuidevices.com/product/resource/ts03.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">2223-TS03-66-95-BK-260-LCR-D-67-ND</field>
+        <field name="MPN">TS03-66-95-BK-260-LCR-D-67</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Digi-Key Part Number" value="2223-TS03-66-95-BK-260-LCR-D-67-ND"/>
+      <property name="MPN" value="TS03-66-95-BK-260-LCR-D-67"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lmm_retrofit.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>45765b8c-560d-4bce-b695-1cca7d2984f3</tstamps>
+    </comp>
+    <comp ref="SW3">
+      <value>BTN1</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm_H9.5mm</footprint>
+      <datasheet>https://www.cuidevices.com/product/resource/ts03.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">2223-TS03-66-95-BK-260-LCR-D-67-ND</field>
+        <field name="MPN">TS03-66-95-BK-260-LCR-D-67</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Digi-Key Part Number" value="2223-TS03-66-95-BK-260-LCR-D-67-ND"/>
+      <property name="MPN" value="TS03-66-95-BK-260-LCR-D-67"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lmm_retrofit.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b05b8a16-1d79-449a-9f8f-8a5cd5a5ec81</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>SDA</value>
+      <footprint>lmm_footprints:TestPoint_Pad_D1.0mm_Text_Silkscreen</footprint>
+      <fields>
+        <field name="DNF">Do not fit</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="DNF" value="Do not fit"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lmm_retrofit.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2ff334d0-23a0-44f6-98a4-70dddf75eb3a</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>5V</value>
+      <footprint>lmm_footprints:TestPoint_Pad_D1.0mm_Text_Silkscreen</footprint>
+      <fields>
+        <field name="DNF">Do not fit</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="DNF" value="Do not fit"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lmm_retrofit.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>59a5d77d-7a79-480c-9f17-f0d670a80ef4</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>SCL</value>
+      <footprint>lmm_footprints:TestPoint_Pad_D1.0mm_Text_Silkscreen</footprint>
+      <fields>
+        <field name="DNF">Do not fit</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="DNF" value="Do not fit"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lmm_retrofit.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a402d3e2-2e6f-45e0-b287-e1d69dbc8e0d</tstamps>
+    </comp>
+    <comp ref="TP4">
+      <value>GND</value>
+      <footprint>lmm_footprints:TestPoint_Pad_D1.0mm_Text_Silkscreen</footprint>
+      <fields>
+        <field name="DNF">Do not fit</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="DNF" value="Do not fit"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lmm_retrofit.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5594fd9e-3596-473c-bee7-8f11ba5037e0</tstamps>
+    </comp>
+    <comp ref="TP5">
+      <value>~{CS1}</value>
+      <footprint>lmm_footprints:TestPoint_Pad_D1.0mm_Text_Silkscreen</footprint>
+      <fields>
+        <field name="DNF">Do not fit</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="DNF" value="Do not fit"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lmm_retrofit.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fdad3837-ad8f-4c83-9d06-87708e24e813</tstamps>
+    </comp>
+    <comp ref="TP6">
+      <value>GND</value>
+      <footprint>lmm_footprints:TestPoint_Pad_D1.0mm_Text_Silkscreen</footprint>
+      <fields>
+        <field name="DNF">Do not fit</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="DNF" value="Do not fit"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lmm_retrofit.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a9c5139a-8fe0-42dd-a0a1-6e6c48eec862</tstamps>
+    </comp>
+    <comp ref="TP7">
+      <value>MOSI</value>
+      <footprint>lmm_footprints:TestPoint_Pad_D1.0mm_Text_Silkscreen</footprint>
+      <fields>
+        <field name="DNF">Do not fit</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="DNF" value="Do not fit"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lmm_retrofit.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1e977981-8307-4db7-b0b5-c172b4acb6f8</tstamps>
+    </comp>
+    <comp ref="TP8">
+      <value>GND</value>
+      <footprint>lmm_footprints:TestPoint_Pad_D1.0mm_Text_Silkscreen</footprint>
+      <fields>
+        <field name="DNF">Do not fit</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="DNF" value="Do not fit"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lmm_retrofit.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c46918b0-1aea-47b0-b9cd-ac0547a5dcf7</tstamps>
+    </comp>
+    <comp ref="TP9">
+      <value>MISO</value>
+      <footprint>lmm_footprints:TestPoint_Pad_D1.0mm_Text_Silkscreen</footprint>
+      <fields>
+        <field name="DNF">Do not fit</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="DNF" value="Do not fit"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lmm_retrofit.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d9024880-2869-4acc-90f7-8b46ca7e55e7</tstamps>
+    </comp>
+    <comp ref="TP10">
+      <value>GND</value>
+      <footprint>lmm_footprints:TestPoint_Pad_D1.0mm_Text_Silkscreen</footprint>
+      <fields>
+        <field name="DNF">Do not fit</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="DNF" value="Do not fit"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lmm_retrofit.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a07eb467-10d9-4d27-b453-bb33fcc9a7f1</tstamps>
+    </comp>
+    <comp ref="TP11">
+      <value>SCK</value>
+      <footprint>lmm_footprints:TestPoint_Pad_D1.0mm_Text_Silkscreen</footprint>
+      <fields>
+        <field name="DNF">Do not fit</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="DNF" value="Do not fit"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lmm_retrofit.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6e40650f-5393-4416-82b5-6addcc095008</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>NCP1117IDT50T4G</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <datasheet>https://www.onsemi.com/pdf/datasheet/ncp1117-d.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">488-NCP1117IDT50T4GCT-ND</field>
+        <field name="MPN">NCP1117IDT50T4G</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="NCP1117-5.0_TO252" description="1A Low drop-out regulator, Fixed Output 5.0V, TO-252 (DPAK)"/>
+      <property name="Digi-Key Part Number" value="488-NCP1117IDT50T4GCT-ND"/>
+      <property name="MPN" value="NCP1117IDT50T4G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lmm_retrofit.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>71dd5a39-2f0a-4bec-8f98-6617d290eac9</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>ATmega168-20A</value>
+      <footprint>Package_QFP:TQFP-32_7x7mm_P0.8mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2545-8-bit-AVR-Microcontroller-ATmega48-88-168_Datasheet.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">ATMEGA168-20AU-ND</field>
+        <field name="MPN">ATMEGA168-20AU</field>
+      </fields>
+      <libsource lib="MCU_Microchip_ATmega" part="ATmega168-20A" description="20MHz, 16kB Flash, 1kB SRAM, 512B EEPROM, TQFP-32"/>
+      <property name="Digi-Key Part Number" value="ATMEGA168-20AU-ND"/>
+      <property name="MPN" value="ATMEGA168-20AU"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lmm_retrofit.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>93a91ba9-812a-4019-b1b3-1e66725f732d</tstamps>
+    </comp>
+    <comp ref="Y1">
+      <value>16MHz</value>
+      <footprint>Crystal:Resonator_SMD_Murata_CSTxExxV-3Pin_3.0x1.1mm</footprint>
+      <datasheet>https://www.murata.com/en/products/productdata/8801162231838/SPEC-CSTNE16M0V530000R0.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">490-17948-1-ND</field>
+        <field name="MPN">CSTNE16M0V530000R0</field>
+      </fields>
+      <libsource lib="Device" part="Resonator_Small" description="Three pin ceramic resonator, small symbol"/>
+      <property name="Digi-Key Part Number" value="490-17948-1-ND"/>
+      <property name="MPN" value="CSTNE16M0V530000R0"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="lmm_retrofit.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e4d81342-19ae-4321-a989-e457769c2b61</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=MCAST21GBB5106MTNA01&amp;u=M</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">587-6440-1-ND</field>
+        <field name="MPN">TMK212BBJ106MGHT</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Digi-Key Part Number" value="587-6440-1-ND"/>
+      <property name="MPN" value="TMK212BBJ106MGHT"/>
+      <property name="Sheetname" value="USB to UART"/>
+      <property name="Sheetfile" value="usb_to_uart.kicad_sch"/>
+      <sheetpath names="/USB to UART/" tstamps="/a72f5a12-53b8-4376-867f-f3f62566bbde/"/>
+      <tstamps>25c9099b-8e1d-4fc6-a2eb-d44367adfa64</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.yuden.co.jp/productdata/catalog/mlcc_all_hq_e.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">587-3508-1-ND</field>
+        <field name="MPN">UMK212B7104KGHT</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Digi-Key Part Number" value="587-3508-1-ND"/>
+      <property name="MPN" value="UMK212B7104KGHT"/>
+      <property name="Sheetname" value="USB to UART"/>
+      <property name="Sheetfile" value="usb_to_uart.kicad_sch"/>
+      <sheetpath names="/USB to UART/" tstamps="/a72f5a12-53b8-4376-867f-f3f62566bbde/"/>
+      <tstamps>04abbacc-1abc-4054-9fee-57a749278696</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=MCAST21GBB5106MTNA01&amp;u=M</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">587-6440-1-ND</field>
+        <field name="MPN">TMK212BBJ106MGHT</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Digi-Key Part Number" value="587-6440-1-ND"/>
+      <property name="MPN" value="TMK212BBJ106MGHT"/>
+      <property name="Sheetname" value="USB to UART"/>
+      <property name="Sheetfile" value="usb_to_uart.kicad_sch"/>
+      <sheetpath names="/USB to UART/" tstamps="/a72f5a12-53b8-4376-867f-f3f62566bbde/"/>
+      <tstamps>197a1d5c-a0e7-460b-97ad-d2de4b81774e</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.yuden.co.jp/productdata/catalog/mlcc_all_hq_e.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">587-3508-1-ND</field>
+        <field name="MPN">UMK212B7104KGHT</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Digi-Key Part Number" value="587-3508-1-ND"/>
+      <property name="MPN" value="UMK212B7104KGHT"/>
+      <property name="Sheetname" value="USB to UART"/>
+      <property name="Sheetfile" value="usb_to_uart.kicad_sch"/>
+      <sheetpath names="/USB to UART/" tstamps="/a72f5a12-53b8-4376-867f-f3f62566bbde/"/>
+      <tstamps>8437e616-3687-4dae-ad1c-76a4b304060b</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>5V USB</value>
+      <footprint>lmm_footprints:LED_0805_2012Metric_Silkscreen_Text</footprint>
+      <datasheet>https://www.we-online.com/katalog/datasheet/150080GS75000.pdf</datasheet>
+      <fields>
+        <field name="Color">Green</field>
+        <field name="Digi-Key Part Number">732-4983-1-ND</field>
+        <field name="MPN">150080GS75000</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="Digi-Key Part Number" value="732-4983-1-ND"/>
+      <property name="MPN" value="150080GS75000"/>
+      <property name="Color" value="Green"/>
+      <property name="Sheetname" value="USB to UART"/>
+      <property name="Sheetfile" value="usb_to_uart.kicad_sch"/>
+      <sheetpath names="/USB to UART/" tstamps="/a72f5a12-53b8-4376-867f-f3f62566bbde/"/>
+      <tstamps>b8beedd0-d657-4fd2-b308-d3085a8648bd</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>CDBA540-HF</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Comchip%20PDFs/CDBA540-HF-CDBA5200-HF_RevC.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">641-1707-1-ND</field>
+        <field name="MPN">CDBA540-HF</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky_Small" description="Schottky diode, small symbol"/>
+      <property name="Digi-Key Part Number" value="641-1707-1-ND"/>
+      <property name="MPN" value="CDBA540-HF"/>
+      <property name="Sheetname" value="USB to UART"/>
+      <property name="Sheetfile" value="usb_to_uart.kicad_sch"/>
+      <sheetpath names="/USB to UART/" tstamps="/a72f5a12-53b8-4376-867f-f3f62566bbde/"/>
+      <tstamps>ce70569b-63b5-421d-bd45-a54009896a40</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>DM1231</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Diodes%20PDFs/DM1231-02SO.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">DM1231-02SO-7DICT-ND</field>
+        <field name="MPN">DM1231-02SO-7</field>
+      </fields>
+      <libsource lib="lmm_retrofit" part="DM1231" description="14V Clamp 7A (8/20µs) Ipp Tvs Diode Surface Mount SOT-26"/>
+      <property name="Digi-Key Part Number" value="DM1231-02SO-7DICT-ND"/>
+      <property name="MPN" value="DM1231-02SO-7"/>
+      <property name="Sheetname" value="USB to UART"/>
+      <property name="Sheetfile" value="usb_to_uart.kicad_sch"/>
+      <sheetpath names="/USB to UART/" tstamps="/a72f5a12-53b8-4376-867f-f3f62566bbde/"/>
+      <tstamps>2d86d382-0e41-49e3-b733-a18575299320</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>RX</value>
+      <footprint>lmm_footprints:LED_0805_2012Metric_Silkscreen_Text</footprint>
+      <datasheet>https://www.we-online.com/katalog/datasheet/150080BS75000.pdf</datasheet>
+      <fields>
+        <field name="Color">Blue</field>
+        <field name="Digi-Key Part Number">732-4982-1-ND</field>
+        <field name="MPN">150080BS75000</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="Digi-Key Part Number" value="732-4982-1-ND"/>
+      <property name="MPN" value="150080BS75000"/>
+      <property name="Color" value="Blue"/>
+      <property name="Sheetname" value="USB to UART"/>
+      <property name="Sheetfile" value="usb_to_uart.kicad_sch"/>
+      <sheetpath names="/USB to UART/" tstamps="/a72f5a12-53b8-4376-867f-f3f62566bbde/"/>
+      <tstamps>0853e87f-75d2-4456-920d-bea041c076d5</tstamps>
+    </comp>
+    <comp ref="D10">
+      <value>TX</value>
+      <footprint>lmm_footprints:LED_0805_2012Metric_Silkscreen_Text</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/445/150080AS75000-1879102.pdf</datasheet>
+      <fields>
+        <field name="Color">Amber</field>
+        <field name="Digi-Key Part Number">732-150080AS75000CT-ND</field>
+        <field name="MPN">150080AS75000</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="Digi-Key Part Number" value="732-150080AS75000CT-ND"/>
+      <property name="MPN" value="150080AS75000"/>
+      <property name="Color" value="Amber"/>
+      <property name="Sheetname" value="USB to UART"/>
+      <property name="Sheetfile" value="usb_to_uart.kicad_sch"/>
+      <sheetpath names="/USB to UART/" tstamps="/a72f5a12-53b8-4376-867f-f3f62566bbde/"/>
+      <tstamps>f3965de0-94c2-4cdb-89ab-c367ebc32d5e</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>250mA</value>
+      <footprint>Fuse:Fuse_1206_3216Metric</footprint>
+      <datasheet>https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zcj-series.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">507-1799-1-ND</field>
+        <field name="MPN">0ZCJ0025AF2E</field>
+      </fields>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="Digi-Key Part Number" value="507-1799-1-ND"/>
+      <property name="MPN" value="0ZCJ0025AF2E"/>
+      <property name="Sheetname" value="USB to UART"/>
+      <property name="Sheetfile" value="usb_to_uart.kicad_sch"/>
+      <sheetpath names="/USB to UART/" tstamps="/a72f5a12-53b8-4376-867f-f3f62566bbde/"/>
+      <tstamps>7dcc5267-1dad-49ce-9b1f-3470fd52a37f</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>USB_C_Receptacle_USB2.0</value>
+      <footprint>lmm_footprints:USB_C_Receptacle_GCT_USB4105-GF-A</footprint>
+      <datasheet>https://gct.co/files/drawings/usb4105.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">2073-USB4105-GF-ACT-ND</field>
+        <field name="MPN">USB4105-GF-A</field>
+      </fields>
+      <libsource lib="Connector" part="USB_C_Receptacle_USB2.0" description="USB 2.0-only Type-C Receptacle connector"/>
+      <property name="Digi-Key Part Number" value="2073-USB4105-GF-ACT-ND"/>
+      <property name="MPN" value="USB4105-GF-A"/>
+      <property name="Sheetname" value="USB to UART"/>
+      <property name="Sheetfile" value="usb_to_uart.kicad_sch"/>
+      <sheetpath names="/USB to UART/" tstamps="/a72f5a12-53b8-4376-867f-f3f62566bbde/"/>
+      <tstamps>62b61884-5600-48d7-854d-5d207c2a4b25</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1773204&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">A126379CT-ND</field>
+        <field name="MPN">CRG0805F5K1</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Digi-Key Part Number" value="A126379CT-ND"/>
+      <property name="MPN" value="CRG0805F5K1"/>
+      <property name="Sheetname" value="USB to UART"/>
+      <property name="Sheetfile" value="usb_to_uart.kicad_sch"/>
+      <sheetpath names="/USB to UART/" tstamps="/a72f5a12-53b8-4376-867f-f3f62566bbde/"/>
+      <tstamps>18189a17-c5a7-4959-9889-e5e792a0face</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1773204&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">A126379CT-ND</field>
+        <field name="MPN">CRG0805F5K1</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Digi-Key Part Number" value="A126379CT-ND"/>
+      <property name="MPN" value="CRG0805F5K1"/>
+      <property name="Sheetname" value="USB to UART"/>
+      <property name="Sheetfile" value="usb_to_uart.kicad_sch"/>
+      <sheetpath names="/USB to UART/" tstamps="/a72f5a12-53b8-4376-867f-f3f62566bbde/"/>
+      <tstamps>f72ceaf4-e15a-4d89-ad12-603f069edc99</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1773204-3&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">A130140CT-ND</field>
+        <field name="MPN">CRGCQ0805J10K</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Digi-Key Part Number" value="A130140CT-ND"/>
+      <property name="MPN" value="CRGCQ0805J10K"/>
+      <property name="Sheetname" value="USB to UART"/>
+      <property name="Sheetfile" value="usb_to_uart.kicad_sch"/>
+      <sheetpath names="/USB to UART/" tstamps="/a72f5a12-53b8-4376-867f-f3f62566bbde/"/>
+      <tstamps>e3a68e7b-eec1-456d-9cbe-e7eae453e960</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>22.1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.bourns.com/docs/product-datasheets/cr.pdf?sfvrsn=574d41f6_14</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">CR0805-FX-2212ELFCT-ND</field>
+        <field name="MPN">CR0805-FX-2212ELF</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Digi-Key Part Number" value="CR0805-FX-2212ELFCT-ND"/>
+      <property name="MPN" value="CR0805-FX-2212ELF"/>
+      <property name="Sheetname" value="USB to UART"/>
+      <property name="Sheetfile" value="usb_to_uart.kicad_sch"/>
+      <sheetpath names="/USB to UART/" tstamps="/a72f5a12-53b8-4376-867f-f3f62566bbde/"/>
+      <tstamps>9ff77c04-7f13-4eb2-b0f4-faf0ce8799a4</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>47.5k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.bourns.com/docs/product-datasheets/cr.pdf?sfvrsn=574d41f6_14</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">118-CR0805-FX-4752ELFCT-ND</field>
+        <field name="MPN">CR0805-FX-4752ELF</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Digi-Key Part Number" value="118-CR0805-FX-4752ELFCT-ND"/>
+      <property name="MPN" value="CR0805-FX-4752ELF"/>
+      <property name="Sheetname" value="USB to UART"/>
+      <property name="Sheetfile" value="usb_to_uart.kicad_sch"/>
+      <sheetpath names="/USB to UART/" tstamps="/a72f5a12-53b8-4376-867f-f3f62566bbde/"/>
+      <tstamps>13833d46-374b-49f7-9d44-f6c96ee7c8bd</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1773204-3&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">A129749CT-ND</field>
+        <field name="MPN">CRGCQ0805F1K0</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Digi-Key Part Number" value="A129749CT-ND"/>
+      <property name="MPN" value="CRGCQ0805F1K0"/>
+      <property name="Sheetname" value="USB to UART"/>
+      <property name="Sheetfile" value="usb_to_uart.kicad_sch"/>
+      <sheetpath names="/USB to UART/" tstamps="/a72f5a12-53b8-4376-867f-f3f62566bbde/"/>
+      <tstamps>8825d908-2acd-4717-b63b-061604fca660</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1773204-3&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">A130140CT-ND</field>
+        <field name="MPN">CRGCQ0805J10K</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Digi-Key Part Number" value="A130140CT-ND"/>
+      <property name="MPN" value="CRGCQ0805J10K"/>
+      <property name="Sheetname" value="USB to UART"/>
+      <property name="Sheetfile" value="usb_to_uart.kicad_sch"/>
+      <sheetpath names="/USB to UART/" tstamps="/a72f5a12-53b8-4376-867f-f3f62566bbde/"/>
+      <tstamps>3a2f6f1a-c59f-4c38-85be-822bd558d238</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1773204-3&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">A130140CT-ND</field>
+        <field name="MPN">CRGCQ0805J10K</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Digi-Key Part Number" value="A130140CT-ND"/>
+      <property name="MPN" value="CRGCQ0805J10K"/>
+      <property name="Sheetname" value="USB to UART"/>
+      <property name="Sheetfile" value="usb_to_uart.kicad_sch"/>
+      <sheetpath names="/USB to UART/" tstamps="/a72f5a12-53b8-4376-867f-f3f62566bbde/"/>
+      <tstamps>2df62343-801f-45bc-9ace-3eec1c60d88d</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1773204&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">A126379CT-ND</field>
+        <field name="MPN">CRG0805F5K1</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Digi-Key Part Number" value="A126379CT-ND"/>
+      <property name="MPN" value="CRG0805F5K1"/>
+      <property name="Sheetname" value="USB to UART"/>
+      <property name="Sheetfile" value="usb_to_uart.kicad_sch"/>
+      <sheetpath names="/USB to UART/" tstamps="/a72f5a12-53b8-4376-867f-f3f62566bbde/"/>
+      <tstamps>06709c57-d690-41ff-8aa9-2ef043ff12a9</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1773204-3&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">A130140CT-ND</field>
+        <field name="MPN">CRGCQ0805J10K</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Digi-Key Part Number" value="A130140CT-ND"/>
+      <property name="MPN" value="CRGCQ0805J10K"/>
+      <property name="Sheetname" value="USB to UART"/>
+      <property name="Sheetfile" value="usb_to_uart.kicad_sch"/>
+      <sheetpath names="/USB to UART/" tstamps="/a72f5a12-53b8-4376-867f-f3f62566bbde/"/>
+      <tstamps>7b053b3a-a11e-4f70-801b-435f5c3178bf</tstamps>
+    </comp>
+    <comp ref="TP12">
+      <value>5V USB</value>
+      <footprint>lmm_footprints:TestPoint_Pad_D1.0mm_Text_Silkscreen</footprint>
+      <fields>
+        <field name="DNF">Do not fit</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="DNF" value="Do not fit"/>
+      <property name="Sheetname" value="USB to UART"/>
+      <property name="Sheetfile" value="usb_to_uart.kicad_sch"/>
+      <sheetpath names="/USB to UART/" tstamps="/a72f5a12-53b8-4376-867f-f3f62566bbde/"/>
+      <tstamps>777c162d-bbf4-4aa5-8ea9-dee914fa9f91</tstamps>
+    </comp>
+    <comp ref="TP13">
+      <value>RX</value>
+      <footprint>lmm_footprints:TestPoint_Pad_D1.0mm_Text_Silkscreen</footprint>
+      <fields>
+        <field name="DNF">Do not fit</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="DNF" value="Do not fit"/>
+      <property name="Sheetname" value="USB to UART"/>
+      <property name="Sheetfile" value="usb_to_uart.kicad_sch"/>
+      <sheetpath names="/USB to UART/" tstamps="/a72f5a12-53b8-4376-867f-f3f62566bbde/"/>
+      <tstamps>a8ee54ff-1da2-48e7-b61f-d267b48f82d7</tstamps>
+    </comp>
+    <comp ref="TP14">
+      <value>TX</value>
+      <footprint>lmm_footprints:TestPoint_Pad_D1.0mm_Text_Silkscreen</footprint>
+      <fields>
+        <field name="DNF">Do not fit</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="DNF" value="Do not fit"/>
+      <property name="Sheetname" value="USB to UART"/>
+      <property name="Sheetfile" value="usb_to_uart.kicad_sch"/>
+      <sheetpath names="/USB to UART/" tstamps="/a72f5a12-53b8-4376-867f-f3f62566bbde/"/>
+      <tstamps>9e713087-ce00-45e5-940f-b6dad25f7aeb</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>CP2102N-A02-GQFN20</value>
+      <footprint>lmm_footprints:SiliconLabs_QFN-20-1EP_3x3mm_P0.5mm_EP1.8x1.8mm_Center_Via</footprint>
+      <datasheet>https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">336-5885-ND</field>
+        <field name="MPN">CP2102N-A02-GQFN20</field>
+      </fields>
+      <libsource lib="Interface_USB" part="CP2102N-Axx-xQFN20" description="USB to UART master bridge, QFN-20"/>
+      <property name="Digi-Key Part Number" value="336-5885-ND"/>
+      <property name="MPN" value="CP2102N-A02-GQFN20"/>
+      <property name="Sheetname" value="USB to UART"/>
+      <property name="Sheetfile" value="usb_to_uart.kicad_sch"/>
+      <sheetpath names="/USB to UART/" tstamps="/a72f5a12-53b8-4376-867f-f3f62566bbde/"/>
+      <tstamps>76f1f6d5-56c9-4b2f-9b5a-14b52bed546f</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.yuden.co.jp/productdata/catalog/mlcc_all_hq_e.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">587-3508-1-ND</field>
+        <field name="MPN">UMK212B7104KGHT</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Digi-Key Part Number" value="587-3508-1-ND"/>
+      <property name="MPN" value="UMK212B7104KGHT"/>
+      <property name="Sheetname" value="Car_Connectors_And_DAC"/>
+      <property name="Sheetfile" value="Car_Connectors_And_DAC.kicad_sch"/>
+      <sheetpath names="/Car_Connectors_And_DAC/" tstamps="/e509f35e-cb04-4cdb-be88-2ba12fde284d/"/>
+      <tstamps>1016efaf-4e4d-4c50-8505-33b6799b6216</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.yuden.co.jp/productdata/catalog/mlcc_all_hq_e.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">587-3508-1-ND</field>
+        <field name="MPN">UMK212B7104KGHT</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Digi-Key Part Number" value="587-3508-1-ND"/>
+      <property name="MPN" value="UMK212B7104KGHT"/>
+      <property name="Sheetname" value="Car_Connectors_And_DAC"/>
+      <property name="Sheetfile" value="Car_Connectors_And_DAC.kicad_sch"/>
+      <sheetpath names="/Car_Connectors_And_DAC/" tstamps="/e509f35e-cb04-4cdb-be88-2ba12fde284d/"/>
+      <tstamps>9a4f473e-eb7a-4fb7-99ab-7b704962ba06</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=MCAST21GBB5106MTNA01&amp;u=M</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">587-6440-1-ND</field>
+        <field name="MPN">TMK212BBJ106MGHT</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Digi-Key Part Number" value="587-6440-1-ND"/>
+      <property name="MPN" value="TMK212BBJ106MGHT"/>
+      <property name="Sheetname" value="Car_Connectors_And_DAC"/>
+      <property name="Sheetfile" value="Car_Connectors_And_DAC.kicad_sch"/>
+      <sheetpath names="/Car_Connectors_And_DAC/" tstamps="/e509f35e-cb04-4cdb-be88-2ba12fde284d/"/>
+      <tstamps>e2487cee-4f07-4283-9f19-56f29f5931a7</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.yuden.co.jp/productdata/catalog/mlcc_all_hq_e.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">587-3508-1-ND</field>
+        <field name="MPN">UMK212B7104KGHT</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Digi-Key Part Number" value="587-3508-1-ND"/>
+      <property name="MPN" value="UMK212B7104KGHT"/>
+      <property name="Sheetname" value="Car_Connectors_And_DAC"/>
+      <property name="Sheetfile" value="Car_Connectors_And_DAC.kicad_sch"/>
+      <sheetpath names="/Car_Connectors_And_DAC/" tstamps="/e509f35e-cb04-4cdb-be88-2ba12fde284d/"/>
+      <tstamps>728d732c-3a61-42e7-8ad3-eca3cdbce61f</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.yuden.co.jp/productdata/catalog/mlcc_all_hq_e.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">587-3508-1-ND</field>
+        <field name="MPN">UMK212B7104KGHT</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Digi-Key Part Number" value="587-3508-1-ND"/>
+      <property name="MPN" value="UMK212B7104KGHT"/>
+      <property name="Sheetname" value="Car_Connectors_And_DAC"/>
+      <property name="Sheetfile" value="Car_Connectors_And_DAC.kicad_sch"/>
+      <sheetpath names="/Car_Connectors_And_DAC/" tstamps="/e509f35e-cb04-4cdb-be88-2ba12fde284d/"/>
+      <tstamps>f95cc142-02ee-4cfe-8812-d75f2168ef65</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.yuden.co.jp/productdata/catalog/mlcc_all_hq_e.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">587-3508-1-ND</field>
+        <field name="MPN">UMK212B7104KGHT</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Digi-Key Part Number" value="587-3508-1-ND"/>
+      <property name="MPN" value="UMK212B7104KGHT"/>
+      <property name="Sheetname" value="Car_Connectors_And_DAC"/>
+      <property name="Sheetfile" value="Car_Connectors_And_DAC.kicad_sch"/>
+      <sheetpath names="/Car_Connectors_And_DAC/" tstamps="/e509f35e-cb04-4cdb-be88-2ba12fde284d/"/>
+      <tstamps>c8abe44a-eb38-48e9-8c0c-7f566974a055</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.yuden.co.jp/productdata/catalog/mlcc_all_hq_e.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">587-3508-1-ND</field>
+        <field name="MPN">UMK212B7104KGHT</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Digi-Key Part Number" value="587-3508-1-ND"/>
+      <property name="MPN" value="UMK212B7104KGHT"/>
+      <property name="Sheetname" value="Car_Connectors_And_DAC"/>
+      <property name="Sheetfile" value="Car_Connectors_And_DAC.kicad_sch"/>
+      <sheetpath names="/Car_Connectors_And_DAC/" tstamps="/e509f35e-cb04-4cdb-be88-2ba12fde284d/"/>
+      <tstamps>94a1f243-b880-48dc-9a44-e87ecb27bd1c</tstamps>
+    </comp>
+    <comp ref="C24">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.yuden.co.jp/productdata/catalog/mlcc_all_hq_e.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">587-3508-1-ND</field>
+        <field name="MPN">UMK212B7104KGHT</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Digi-Key Part Number" value="587-3508-1-ND"/>
+      <property name="MPN" value="UMK212B7104KGHT"/>
+      <property name="Sheetname" value="Car_Connectors_And_DAC"/>
+      <property name="Sheetfile" value="Car_Connectors_And_DAC.kicad_sch"/>
+      <sheetpath names="/Car_Connectors_And_DAC/" tstamps="/e509f35e-cb04-4cdb-be88-2ba12fde284d/"/>
+      <tstamps>9e10019b-3f4e-4332-b557-9256368eecbe</tstamps>
+    </comp>
+    <comp ref="C25">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=MCAST21GBB5106MTNA01&amp;u=M</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">587-6440-1-ND</field>
+        <field name="MPN">TMK212BBJ106MGHT</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Digi-Key Part Number" value="587-6440-1-ND"/>
+      <property name="MPN" value="TMK212BBJ106MGHT"/>
+      <property name="Sheetname" value="Car_Connectors_And_DAC"/>
+      <property name="Sheetfile" value="Car_Connectors_And_DAC.kicad_sch"/>
+      <sheetpath names="/Car_Connectors_And_DAC/" tstamps="/e509f35e-cb04-4cdb-be88-2ba12fde284d/"/>
+      <tstamps>fdbbe3e4-b53d-4abb-8b43-1e29dd2e678d</tstamps>
+    </comp>
+    <comp ref="D11">
+      <value>CDBA540-HF</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Comchip%20PDFs/CDBA540-HF-CDBA5200-HF_RevC.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">641-1707-1-ND</field>
+        <field name="MPN">CDBA540-HF</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky_Small" description="Schottky diode, small symbol"/>
+      <property name="Digi-Key Part Number" value="641-1707-1-ND"/>
+      <property name="MPN" value="CDBA540-HF"/>
+      <property name="Sheetname" value="Car_Connectors_And_DAC"/>
+      <property name="Sheetfile" value="Car_Connectors_And_DAC.kicad_sch"/>
+      <sheetpath names="/Car_Connectors_And_DAC/" tstamps="/e509f35e-cb04-4cdb-be88-2ba12fde284d/"/>
+      <tstamps>dcb771f4-ded9-4ffd-ad43-faed7210c969</tstamps>
+    </comp>
+    <comp ref="D12">
+      <value>D5V0F4U6SO-7</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/D5V0F4U6SO.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">D5V0F4U6SO-7DICT-ND</field>
+        <field name="MPN">D5V0F4U6SO-7</field>
+      </fields>
+      <libsource lib="lmm_retrofit" part="D5V0F4U6SO-7" description="12V Clamp 3A (8/20µs) Ipp Tvs Diode Surface Mount SOT-26"/>
+      <property name="Digi-Key Part Number" value="D5V0F4U6SO-7DICT-ND"/>
+      <property name="MPN" value="D5V0F4U6SO-7"/>
+      <property name="Sheetname" value="Car_Connectors_And_DAC"/>
+      <property name="Sheetfile" value="Car_Connectors_And_DAC.kicad_sch"/>
+      <sheetpath names="/Car_Connectors_And_DAC/" tstamps="/e509f35e-cb04-4cdb-be88-2ba12fde284d/"/>
+      <tstamps>919ec98c-3981-4e31-b0f6-3c0c5eb14e19</tstamps>
+    </comp>
+    <comp ref="D13">
+      <value>D5V0F4U6SO-7</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/D5V0F4U6SO.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">D5V0F4U6SO-7DICT-ND</field>
+        <field name="MPN">D5V0F4U6SO-7</field>
+      </fields>
+      <libsource lib="lmm_retrofit" part="D5V0F4U6SO-7" description="12V Clamp 3A (8/20µs) Ipp Tvs Diode Surface Mount SOT-26"/>
+      <property name="Digi-Key Part Number" value="D5V0F4U6SO-7DICT-ND"/>
+      <property name="MPN" value="D5V0F4U6SO-7"/>
+      <property name="Sheetname" value="Car_Connectors_And_DAC"/>
+      <property name="Sheetfile" value="Car_Connectors_And_DAC.kicad_sch"/>
+      <sheetpath names="/Car_Connectors_And_DAC/" tstamps="/e509f35e-cb04-4cdb-be88-2ba12fde284d/"/>
+      <tstamps>e204ebb2-11f7-48f2-85e9-a164ea91d215</tstamps>
+    </comp>
+    <comp ref="D14">
+      <value>CDBA540-HF</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Comchip%20PDFs/CDBA540-HF-CDBA5200-HF_RevC.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">641-1707-1-ND</field>
+        <field name="MPN">CDBA540-HF</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky_Small" description="Schottky diode, small symbol"/>
+      <property name="Digi-Key Part Number" value="641-1707-1-ND"/>
+      <property name="MPN" value="CDBA540-HF"/>
+      <property name="Sheetname" value="Car_Connectors_And_DAC"/>
+      <property name="Sheetfile" value="Car_Connectors_And_DAC.kicad_sch"/>
+      <sheetpath names="/Car_Connectors_And_DAC/" tstamps="/e509f35e-cb04-4cdb-be88-2ba12fde284d/"/>
+      <tstamps>7ddb1644-ed71-460a-ac31-0f97a7002532</tstamps>
+    </comp>
+    <comp ref="D15">
+      <value>SMF18A</value>
+      <footprint>Diode_SMD:D_SOD-123F</footprint>
+      <datasheet>https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smf_datasheet.pdf.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">F5820CT-ND</field>
+        <field name="MPN">SMF18A</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener_Small" description="Zener diode, small symbol"/>
+      <property name="Digi-Key Part Number" value="F5820CT-ND"/>
+      <property name="MPN" value="SMF18A"/>
+      <property name="Sheetname" value="Car_Connectors_And_DAC"/>
+      <property name="Sheetfile" value="Car_Connectors_And_DAC.kicad_sch"/>
+      <sheetpath names="/Car_Connectors_And_DAC/" tstamps="/e509f35e-cb04-4cdb-be88-2ba12fde284d/"/>
+      <tstamps>ab649676-cc96-4fd9-8472-c5ff79afaa4b</tstamps>
+    </comp>
+    <comp ref="F2">
+      <value>250mA</value>
+      <footprint>Fuse:Fuse_1206_3216Metric</footprint>
+      <datasheet>https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zcj-series.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">507-1799-1-ND</field>
+        <field name="MPN">0ZCJ0025AF2E</field>
+      </fields>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="Digi-Key Part Number" value="507-1799-1-ND"/>
+      <property name="MPN" value="0ZCJ0025AF2E"/>
+      <property name="Sheetname" value="Car_Connectors_And_DAC"/>
+      <property name="Sheetfile" value="Car_Connectors_And_DAC.kicad_sch"/>
+      <sheetpath names="/Car_Connectors_And_DAC/" tstamps="/e509f35e-cb04-4cdb-be88-2ba12fde284d/"/>
+      <tstamps>690b56f8-50f9-4a0c-80f0-da77a51fbc21</tstamps>
+    </comp>
+    <comp ref="FB2">
+      <value>1k@100MHz</value>
+      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <datasheet>https://abracon.com/Magnetics/new/ACML-0805.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">535-ACML-0805-102-TCT-ND</field>
+        <field name="MPN">ACML-0805-102-T</field>
+      </fields>
+      <libsource lib="Device" part="FerriteBead_Small" description="Ferrite bead, small symbol"/>
+      <property name="Digi-Key Part Number" value="535-ACML-0805-102-TCT-ND"/>
+      <property name="MPN" value="ACML-0805-102-T"/>
+      <property name="Sheetname" value="Car_Connectors_And_DAC"/>
+      <property name="Sheetfile" value="Car_Connectors_And_DAC.kicad_sch"/>
+      <sheetpath names="/Car_Connectors_And_DAC/" tstamps="/e509f35e-cb04-4cdb-be88-2ba12fde284d/"/>
+      <tstamps>c6efb47c-332e-4f70-bfbb-f9b07db9a5c7</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Bosch_old_LMM</value>
+      <footprint>lmm_footprints:Bosch_L_Jetronic_7-Pin_Male_Blade_Conn</footprint>
+      <datasheet>https://mux.hs-emden-leer.de/svn/micro-projects-lmm/30_datasheets/L_Jetronic/_tr7_ecu.pdf</datasheet>
+      <fields>
+        <field name="DNF">Do not fit</field>
+        <field name="MPN">0 280 203 002</field>
+      </fields>
+      <libsource lib="lmm_retrofit" part="Bosch_old_LMM" description="Airflow meter for L Jetronic ECUs; Luftmengenmesser für Oldtimer"/>
+      <property name="MPN" value="0 280 203 002"/>
+      <property name="DNF" value="Do not fit"/>
+      <property name="Sheetname" value="Car_Connectors_And_DAC"/>
+      <property name="Sheetfile" value="Car_Connectors_And_DAC.kicad_sch"/>
+      <sheetpath names="/Car_Connectors_And_DAC/" tstamps="/e509f35e-cb04-4cdb-be88-2ba12fde284d/"/>
+      <tstamps>490b56ee-8771-4bc7-8baa-ab0bdfe25b9b</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Bosch_HFM5_LMM</value>
+      <footprint>lmm_footprints:Bosch_Airmass_Senosor_5-Pin_Male_Blade_Connector</footprint>
+      <datasheet>https://mux.hs-emden-leer.de/svn/micro-projects-lmm/30_datasheets/LMM/HFM5_Datenblatt.pdf</datasheet>
+      <fields>
+        <field name="DNF">Do not fit</field>
+        <field name="MPN">0 280 217 531</field>
+      </fields>
+      <libsource lib="lmm_retrofit" part="Bosch_HFM5_LMM" description="Hot-film air-mass meter, Type HFM 5"/>
+      <property name="MPN" value="0 280 217 531"/>
+      <property name="DNF" value="Do not fit"/>
+      <property name="Sheetname" value="Car_Connectors_And_DAC"/>
+      <property name="Sheetfile" value="Car_Connectors_And_DAC.kicad_sch"/>
+      <sheetpath names="/Car_Connectors_And_DAC/" tstamps="/e509f35e-cb04-4cdb-be88-2ba12fde284d/"/>
+      <tstamps>f6e40deb-21a2-46da-bcf6-c92a16e7d45d</tstamps>
+    </comp>
+    <comp ref="K1">
+      <value>G8G</value>
+      <footprint>lmm_footprints:G8G__SPST</footprint>
+      <datasheet>https://components.omron.com/us-en/datasheet_pdf/J263-E1.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">39-G8G-1A7RDC12BYOMR1-ND</field>
+        <field name="MPN">G8G-1A7R DC12 BY OMR1</field>
+      </fields>
+      <libsource lib="lmm_retrofit" part="G8G" description="AUTO MOTIVE PCB RELAY, DC 12V"/>
+      <property name="Digi-Key Part Number" value="39-G8G-1A7RDC12BYOMR1-ND"/>
+      <property name="MPN" value="G8G-1A7R DC12 BY OMR1"/>
+      <property name="Sheetname" value="Car_Connectors_And_DAC"/>
+      <property name="Sheetfile" value="Car_Connectors_And_DAC.kicad_sch"/>
+      <sheetpath names="/Car_Connectors_And_DAC/" tstamps="/e509f35e-cb04-4cdb-be88-2ba12fde284d/"/>
+      <tstamps>c42bf8cd-980c-4ab1-9833-1eff2aaa0b3a</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>MMBT4401-7-F</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.comchiptech.com/admin/files/product/QW-JTR91%20MMBT4401-HF%20RevB.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">641-MMBT4401-HFCT-ND</field>
+        <field name="MPN">MMBT4401-HF</field>
+      </fields>
+      <libsource lib="Device" part="Q_NPN_BEC" description="NPN transistor, base/emitter/collector"/>
+      <property name="Digi-Key Part Number" value="641-MMBT4401-HFCT-ND"/>
+      <property name="MPN" value="MMBT4401-HF"/>
+      <property name="Sheetname" value="Car_Connectors_And_DAC"/>
+      <property name="Sheetfile" value="Car_Connectors_And_DAC.kicad_sch"/>
+      <sheetpath names="/Car_Connectors_And_DAC/" tstamps="/e509f35e-cb04-4cdb-be88-2ba12fde284d/"/>
+      <tstamps>ee6bec32-8d05-4b7c-a046-bbce8ee30ebf</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>200</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/esr-e.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">RHM200AECT-ND</field>
+        <field name="MPN">ESR10EZPF2000</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Digi-Key Part Number" value="RHM200AECT-ND"/>
+      <property name="MPN" value="ESR10EZPF2000"/>
+      <property name="Sheetname" value="Car_Connectors_And_DAC"/>
+      <property name="Sheetfile" value="Car_Connectors_And_DAC.kicad_sch"/>
+      <sheetpath names="/Car_Connectors_And_DAC/" tstamps="/e509f35e-cb04-4cdb-be88-2ba12fde284d/"/>
+      <tstamps>6aec5480-b633-4bdd-9e65-d7e7e44de866</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>182</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">541-182CCT-ND</field>
+        <field name="MPN">CRCW0805182RFKEA</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Digi-Key Part Number" value="541-182CCT-ND"/>
+      <property name="MPN" value="CRCW0805182RFKEA"/>
+      <property name="Sheetname" value="Car_Connectors_And_DAC"/>
+      <property name="Sheetfile" value="Car_Connectors_And_DAC.kicad_sch"/>
+      <sheetpath names="/Car_Connectors_And_DAC/" tstamps="/e509f35e-cb04-4cdb-be88-2ba12fde284d/"/>
+      <tstamps>089e2531-5bb1-4457-9524-2db8dccd2cb2</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>182</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">541-182CCT-ND</field>
+        <field name="MPN">CRCW0805182RFKEA</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Digi-Key Part Number" value="541-182CCT-ND"/>
+      <property name="MPN" value="CRCW0805182RFKEA"/>
+      <property name="Sheetname" value="Car_Connectors_And_DAC"/>
+      <property name="Sheetfile" value="Car_Connectors_And_DAC.kicad_sch"/>
+      <sheetpath names="/Car_Connectors_And_DAC/" tstamps="/e509f35e-cb04-4cdb-be88-2ba12fde284d/"/>
+      <tstamps>fdf3da61-f955-49cd-8428-7d6ee5cbc3f2</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>200</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/esr-e.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">RHM200AECT-ND</field>
+        <field name="MPN">ESR10EZPF2000</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Digi-Key Part Number" value="RHM200AECT-ND"/>
+      <property name="MPN" value="ESR10EZPF2000"/>
+      <property name="Sheetname" value="Car_Connectors_And_DAC"/>
+      <property name="Sheetfile" value="Car_Connectors_And_DAC.kicad_sch"/>
+      <sheetpath names="/Car_Connectors_And_DAC/" tstamps="/e509f35e-cb04-4cdb-be88-2ba12fde284d/"/>
+      <tstamps>e7408733-e191-4622-aa50-7bba018d7ea7</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1773204-3&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">A129749CT-ND</field>
+        <field name="MPN">CRGCQ0805F1K0</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Digi-Key Part Number" value="A129749CT-ND"/>
+      <property name="MPN" value="CRGCQ0805F1K0"/>
+      <property name="Sheetname" value="Car_Connectors_And_DAC"/>
+      <property name="Sheetfile" value="Car_Connectors_And_DAC.kicad_sch"/>
+      <sheetpath names="/Car_Connectors_And_DAC/" tstamps="/e509f35e-cb04-4cdb-be88-2ba12fde284d/"/>
+      <tstamps>97a8181a-e004-4bb3-9dc5-8e66d6faa9cb</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_8.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">YAG3755CT-ND</field>
+        <field name="Info">Populate with value &gt;0R if voltage on A pin would be too high.</field>
+        <field name="MPN">AC0805JR-070RL</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Digi-Key Part Number" value="YAG3755CT-ND"/>
+      <property name="MPN" value="AC0805JR-070RL"/>
+      <property name="Info" value="Populate with value &gt;0R if voltage on A pin would be too high."/>
+      <property name="Sheetname" value="Car_Connectors_And_DAC"/>
+      <property name="Sheetfile" value="Car_Connectors_And_DAC.kicad_sch"/>
+      <sheetpath names="/Car_Connectors_And_DAC/" tstamps="/e509f35e-cb04-4cdb-be88-2ba12fde284d/"/>
+      <tstamps>fa8939ac-14e4-4e88-8030-f259b0c5f82e</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1773204-3&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">A130140CT-ND</field>
+        <field name="MPN">CRGCQ0805J10K</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Digi-Key Part Number" value="A130140CT-ND"/>
+      <property name="MPN" value="CRGCQ0805J10K"/>
+      <property name="Sheetname" value="Car_Connectors_And_DAC"/>
+      <property name="Sheetfile" value="Car_Connectors_And_DAC.kicad_sch"/>
+      <sheetpath names="/Car_Connectors_And_DAC/" tstamps="/e509f35e-cb04-4cdb-be88-2ba12fde284d/"/>
+      <tstamps>bfc3b61d-a656-4949-8a36-84e52c4fa1d9</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1773204-3&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">A130140CT-ND</field>
+        <field name="MPN">CRGCQ0805J10K</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Digi-Key Part Number" value="A130140CT-ND"/>
+      <property name="MPN" value="CRGCQ0805J10K"/>
+      <property name="Sheetname" value="Car_Connectors_And_DAC"/>
+      <property name="Sheetfile" value="Car_Connectors_And_DAC.kicad_sch"/>
+      <sheetpath names="/Car_Connectors_And_DAC/" tstamps="/e509f35e-cb04-4cdb-be88-2ba12fde284d/"/>
+      <tstamps>7bb6118c-9d82-4d64-aae4-c5d0a08dcb23</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>47.5k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.bourns.com/docs/product-datasheets/cr.pdf?sfvrsn=574d41f6_14</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">118-CR0805-FX-4752ELFCT-ND</field>
+        <field name="MPN">CR0805-FX-4752ELF</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Digi-Key Part Number" value="118-CR0805-FX-4752ELFCT-ND"/>
+      <property name="MPN" value="CR0805-FX-4752ELF"/>
+      <property name="Sheetname" value="Car_Connectors_And_DAC"/>
+      <property name="Sheetfile" value="Car_Connectors_And_DAC.kicad_sch"/>
+      <sheetpath names="/Car_Connectors_And_DAC/" tstamps="/e509f35e-cb04-4cdb-be88-2ba12fde284d/"/>
+      <tstamps>20130036-a9be-45f8-aaf7-8c4e09542061</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>22.1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.bourns.com/docs/product-datasheets/cr.pdf?sfvrsn=574d41f6_14</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">CR0805-FX-2212ELFCT-ND</field>
+        <field name="MPN">CR0805-FX-2212ELF</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Digi-Key Part Number" value="CR0805-FX-2212ELFCT-ND"/>
+      <property name="MPN" value="CR0805-FX-2212ELF"/>
+      <property name="Sheetname" value="Car_Connectors_And_DAC"/>
+      <property name="Sheetfile" value="Car_Connectors_And_DAC.kicad_sch"/>
+      <sheetpath names="/Car_Connectors_And_DAC/" tstamps="/e509f35e-cb04-4cdb-be88-2ba12fde284d/"/>
+      <tstamps>9f5858cc-ce17-4326-9a13-8b09635b742a</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1773204-3&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">A130140CT-ND</field>
+        <field name="MPN">CRGCQ0805J10K</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Digi-Key Part Number" value="A130140CT-ND"/>
+      <property name="MPN" value="CRGCQ0805J10K"/>
+      <property name="Sheetname" value="Car_Connectors_And_DAC"/>
+      <property name="Sheetfile" value="Car_Connectors_And_DAC.kicad_sch"/>
+      <sheetpath names="/Car_Connectors_And_DAC/" tstamps="/e509f35e-cb04-4cdb-be88-2ba12fde284d/"/>
+      <tstamps>70a58335-1db6-4d57-814c-fd31581ab120</tstamps>
+    </comp>
+    <comp ref="R33">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1773204-3&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">A129749CT-ND</field>
+        <field name="MPN">CRGCQ0805F1K0</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Digi-Key Part Number" value="A129749CT-ND"/>
+      <property name="MPN" value="CRGCQ0805F1K0"/>
+      <property name="Sheetname" value="Car_Connectors_And_DAC"/>
+      <property name="Sheetfile" value="Car_Connectors_And_DAC.kicad_sch"/>
+      <sheetpath names="/Car_Connectors_And_DAC/" tstamps="/e509f35e-cb04-4cdb-be88-2ba12fde284d/"/>
+      <tstamps>79f4da8d-d498-4c3b-a006-4eed118d6f76</tstamps>
+    </comp>
+    <comp ref="R34">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1773204-3&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">A129749CT-ND</field>
+        <field name="MPN">CRGCQ0805F1K0</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Digi-Key Part Number" value="A129749CT-ND"/>
+      <property name="MPN" value="CRGCQ0805F1K0"/>
+      <property name="Sheetname" value="Car_Connectors_And_DAC"/>
+      <property name="Sheetfile" value="Car_Connectors_And_DAC.kicad_sch"/>
+      <sheetpath names="/Car_Connectors_And_DAC/" tstamps="/e509f35e-cb04-4cdb-be88-2ba12fde284d/"/>
+      <tstamps>a7594a4f-d3e0-4a51-aab9-b2488a2f2b36</tstamps>
+    </comp>
+    <comp ref="SW4">
+      <value>Thermistor select</value>
+      <footprint>lmm_footprints:JS202011SCQN</footprint>
+      <datasheet>https://www.ckswitches.com/media/1422/js.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">401-2002-1-ND</field>
+        <field name="MPN">JS202011SCQN</field>
+      </fields>
+      <libsource lib="Switch" part="SW_DPDT_x2" description="Switch, dual pole double throw, separate symbols"/>
+      <property name="Digi-Key Part Number" value="401-2002-1-ND"/>
+      <property name="MPN" value="JS202011SCQN"/>
+      <property name="Sheetname" value="Car_Connectors_And_DAC"/>
+      <property name="Sheetfile" value="Car_Connectors_And_DAC.kicad_sch"/>
+      <sheetpath names="/Car_Connectors_And_DAC/" tstamps="/e509f35e-cb04-4cdb-be88-2ba12fde284d/"/>
+      <tstamps>c04971c5-943b-4428-b591-68d802c1d7fd 7ab77287-3058-4feb-851c-30ffdb6725a2</tstamps>
+    </comp>
+    <comp ref="TP15">
+      <value>IN_SIG</value>
+      <footprint>lmm_footprints:TestPoint_Pad_D1.0mm_Text_Silkscreen</footprint>
+      <fields>
+        <field name="DNF">Do not fit</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="DNF" value="Do not fit"/>
+      <property name="Sheetname" value="Car_Connectors_And_DAC"/>
+      <property name="Sheetfile" value="Car_Connectors_And_DAC.kicad_sch"/>
+      <sheetpath names="/Car_Connectors_And_DAC/" tstamps="/e509f35e-cb04-4cdb-be88-2ba12fde284d/"/>
+      <tstamps>3101f2df-cb80-4a2a-a98b-22bd45af6da1</tstamps>
+    </comp>
+    <comp ref="TP16">
+      <value>SIG</value>
+      <footprint>lmm_footprints:TestPoint_Pad_D1.0mm_Text_Silkscreen</footprint>
+      <fields>
+        <field name="DNF">Do not fit</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="DNF" value="Do not fit"/>
+      <property name="Sheetname" value="Car_Connectors_And_DAC"/>
+      <property name="Sheetfile" value="Car_Connectors_And_DAC.kicad_sch"/>
+      <sheetpath names="/Car_Connectors_And_DAC/" tstamps="/e509f35e-cb04-4cdb-be88-2ba12fde284d/"/>
+      <tstamps>0b066967-9214-45d9-88d5-3efcaef6dfcf</tstamps>
+    </comp>
+    <comp ref="TP17">
+      <value>IN_TEMP</value>
+      <footprint>lmm_footprints:TestPoint_Pad_D1.0mm_Text_Silkscreen</footprint>
+      <fields>
+        <field name="DNF">Do not fit</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="DNF" value="Do not fit"/>
+      <property name="Sheetname" value="Car_Connectors_And_DAC"/>
+      <property name="Sheetfile" value="Car_Connectors_And_DAC.kicad_sch"/>
+      <sheetpath names="/Car_Connectors_And_DAC/" tstamps="/e509f35e-cb04-4cdb-be88-2ba12fde284d/"/>
+      <tstamps>2f21adde-1abc-4e2b-a929-f23d73848f80</tstamps>
+    </comp>
+    <comp ref="TP18">
+      <value>TAP</value>
+      <footprint>lmm_footprints:TestPoint_Pad_D1.0mm_Text_Silkscreen</footprint>
+      <fields>
+        <field name="DNF">Do not fit</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="DNF" value="Do not fit"/>
+      <property name="Sheetname" value="Car_Connectors_And_DAC"/>
+      <property name="Sheetfile" value="Car_Connectors_And_DAC.kicad_sch"/>
+      <sheetpath names="/Car_Connectors_And_DAC/" tstamps="/e509f35e-cb04-4cdb-be88-2ba12fde284d/"/>
+      <tstamps>0d1a89fb-e2e9-4a59-a90b-e2d6573720f2</tstamps>
+    </comp>
+    <comp ref="TP19">
+      <value>POT_TEMP</value>
+      <footprint>lmm_footprints:TestPoint_Pad_D1.0mm_Text_Silkscreen</footprint>
+      <fields>
+        <field name="DNF">Do not fit</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="DNF" value="Do not fit"/>
+      <property name="Sheetname" value="Car_Connectors_And_DAC"/>
+      <property name="Sheetfile" value="Car_Connectors_And_DAC.kicad_sch"/>
+      <sheetpath names="/Car_Connectors_And_DAC/" tstamps="/e509f35e-cb04-4cdb-be88-2ba12fde284d/"/>
+      <tstamps>83428c9d-490f-4d76-9de1-8d4513bafd25</tstamps>
+    </comp>
+    <comp ref="TP20">
+      <value>TEMP</value>
+      <footprint>lmm_footprints:TestPoint_Pad_D1.0mm_Text_Silkscreen</footprint>
+      <fields>
+        <field name="DNF">Do not fit</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="DNF" value="Do not fit"/>
+      <property name="Sheetname" value="Car_Connectors_And_DAC"/>
+      <property name="Sheetfile" value="Car_Connectors_And_DAC.kicad_sch"/>
+      <sheetpath names="/Car_Connectors_And_DAC/" tstamps="/e509f35e-cb04-4cdb-be88-2ba12fde284d/"/>
+      <tstamps>958bd873-9b50-4156-a72f-e98cf60f5a47</tstamps>
+    </comp>
+    <comp ref="TP21">
+      <value>+BATT</value>
+      <footprint>lmm_footprints:TestPoint_Pad_D1.0mm_Text_Silkscreen</footprint>
+      <fields>
+        <field name="DNF">Do not fit</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="DNF" value="Do not fit"/>
+      <property name="Sheetname" value="Car_Connectors_And_DAC"/>
+      <property name="Sheetfile" value="Car_Connectors_And_DAC.kicad_sch"/>
+      <sheetpath names="/Car_Connectors_And_DAC/" tstamps="/e509f35e-cb04-4cdb-be88-2ba12fde284d/"/>
+      <tstamps>b26174bd-9dd6-4a09-8d37-02174b66cbe7</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>AD5280</value>
+      <footprint>Package_SO:TSSOP-14_4.4x5mm_P0.65mm</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/AD5280_5282.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">AD5280BRUZ50-ND</field>
+        <field name="MPN">AD5280BRUZ50</field>
+      </fields>
+      <libsource lib="Potentiometer_Digital" part="AD5280" description="Digital potentiometer, 256 position, single output, I2C interface"/>
+      <property name="Digi-Key Part Number" value="AD5280BRUZ50-ND"/>
+      <property name="MPN" value="AD5280BRUZ50"/>
+      <property name="Sheetname" value="Car_Connectors_And_DAC"/>
+      <property name="Sheetfile" value="Car_Connectors_And_DAC.kicad_sch"/>
+      <sheetpath names="/Car_Connectors_And_DAC/" tstamps="/e509f35e-cb04-4cdb-be88-2ba12fde284d/"/>
+      <tstamps>4847ea8f-37d4-427b-9684-e5a82cb65363</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>DAC101C085CIMM/NOPB</value>
+      <footprint>Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/dac101c081.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">DAC101C085CIMM/NOPBCT-ND</field>
+        <field name="MPN">DAC101C085CIMM/NOPB</field>
+      </fields>
+      <libsource lib="lmm_retrofit" part="DAC101C085CIMM{slash}NOPB" description="10 Bit Digital to Analog Converter 1 8-VSSOP"/>
+      <property name="Digi-Key Part Number" value="DAC101C085CIMM/NOPBCT-ND"/>
+      <property name="MPN" value="DAC101C085CIMM/NOPB"/>
+      <property name="Sheetname" value="Car_Connectors_And_DAC"/>
+      <property name="Sheetfile" value="Car_Connectors_And_DAC.kicad_sch"/>
+      <sheetpath names="/Car_Connectors_And_DAC/" tstamps="/e509f35e-cb04-4cdb-be88-2ba12fde284d/"/>
+      <tstamps>86c3fe19-76cb-48fe-b7f9-12963b0a74cd</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>TLV271</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftlv271-q1</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">296-38281-1-ND</field>
+        <field name="MPN">TLV271QDRQ1</field>
+      </fields>
+      <libsource lib="lmm_retrofit" part="TLV271" description="General Purpose Amplifier 1 Circuit Rail-to-Rail 8-SOIC"/>
+      <property name="Digi-Key Part Number" value="296-38281-1-ND"/>
+      <property name="MPN" value="TLV271QDRQ1"/>
+      <property name="Sheetname" value="Car_Connectors_And_DAC"/>
+      <property name="Sheetfile" value="Car_Connectors_And_DAC.kicad_sch"/>
+      <sheetpath names="/Car_Connectors_And_DAC/" tstamps="/e509f35e-cb04-4cdb-be88-2ba12fde284d/"/>
+      <tstamps>984873bb-504e-4b3c-bf2d-13bd80b0db5f</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x06_Female">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_C_Receptacle_USB2.0">
+      <description>USB 2.0-only Type-C Receptacle connector</description>
+      <docs>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</docs>
+      <footprints>
+        <fp>USB*C*Receptacle*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_C_Receptacle_USB2.0</field>
+        <field name="Datasheet">https://www.usb.org/sites/default/files/documents/usb_type-c.zip</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="passive"/>
+        <pin num="A4" name="VBUS" type="passive"/>
+        <pin num="A5" name="CC1" type="bidirectional"/>
+        <pin num="A6" name="D+" type="bidirectional"/>
+        <pin num="A7" name="D-" type="bidirectional"/>
+        <pin num="A8" name="SBU1" type="bidirectional"/>
+        <pin num="A9" name="VBUS" type="passive"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B1" name="GND" type="passive"/>
+        <pin num="B4" name="VBUS" type="passive"/>
+        <pin num="B5" name="CC2" type="bidirectional"/>
+        <pin num="B6" name="D+" type="bidirectional"/>
+        <pin num="B7" name="D-" type="bidirectional"/>
+        <pin num="B8" name="SBU2" type="bidirectional"/>
+        <pin num="B9" name="VBUS" type="passive"/>
+        <pin num="B12" name="GND" type="passive"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x03_Odd_Even">
+      <description>Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x03_Odd_Even</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky_Small">
+      <description>Schottky diode, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Zener_Small">
+      <description>Zener diode, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="FerriteBead_Small">
+      <description>Ferrite bead, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+        <fp>*Ferrite*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">FerriteBead_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED_Small">
+      <description>Light emitting diode, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Polyfuse">
+      <description>Resettable fuse, polymeric positive temperature coefficient</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*polyfuse*</fp>
+        <fp>*PTC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Polyfuse</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NPN_BEC">
+      <description>NPN transistor, base/emitter/collector</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NPN_BEC</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Resonator_Small">
+      <description>Three pin ceramic resonator, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Filter*</fp>
+        <fp>Resonator*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Resonator_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Interface_USB" part="CP2102N-Axx-xQFN20">
+      <description>USB to UART master bridge, QFN-20</description>
+      <docs>https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf</docs>
+      <footprints>
+        <fp>SiliconLabs*QFN*3x3mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CP2102N-Axx-xQFN20</field>
+        <field name="Footprint">Package_DFN_QFN:SiliconLabs_QFN-20-1EP_3x3mm_P0.5mm</field>
+        <field name="Datasheet">https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RS485/GPIO.1" type="bidirectional"/>
+        <pin num="2" name="CLK/GPIO.0" type="bidirectional"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="D+" type="bidirectional"/>
+        <pin num="5" name="D-" type="bidirectional"/>
+        <pin num="6" name="VDD" type="power_in"/>
+        <pin num="7" name="VREGIN" type="power_in"/>
+        <pin num="8" name="VBUS" type="input"/>
+        <pin num="9" name="~{RST}" type="input"/>
+        <pin num="10" name="NC" type="no_connect"/>
+        <pin num="11" name="~{SUSPEND}" type="output"/>
+        <pin num="12" name="GND" type="passive"/>
+        <pin num="13" name="~{WAKEUP}" type="input"/>
+        <pin num="14" name="SUSPEND" type="output"/>
+        <pin num="15" name="~{CTS}" type="input"/>
+        <pin num="16" name="~{RTS}" type="output"/>
+        <pin num="17" name="RXD" type="input"/>
+        <pin num="18" name="TXD" type="output"/>
+        <pin num="19" name="~{RXT}/GPIO.3" type="bidirectional"/>
+        <pin num="20" name="~{TXT}/GPIO.2" type="bidirectional"/>
+        <pin num="21" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Microchip_ATmega" part="ATmega168-20A">
+      <description>20MHz, 16kB Flash, 1kB SRAM, 512B EEPROM, TQFP-32</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2545-8-bit-AVR-Microcontroller-ATmega48-88-168_Datasheet.pdf</docs>
+      <footprints>
+        <fp>TQFP*7x7mm*P0.8mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATmega168-20A</field>
+        <field name="Footprint">Package_QFP:TQFP-32_7x7mm_P0.8mm</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2545-8-bit-AVR-Microcontroller-ATmega48-88-168_Datasheet.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PD3" type="bidirectional"/>
+        <pin num="2" name="PD4" type="bidirectional"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="VCC" type="power_in"/>
+        <pin num="5" name="GND" type="passive"/>
+        <pin num="6" name="VCC" type="passive"/>
+        <pin num="7" name="XTAL1/PB6" type="bidirectional"/>
+        <pin num="8" name="XTAL2/PB7" type="bidirectional"/>
+        <pin num="9" name="PD5" type="bidirectional"/>
+        <pin num="10" name="PD6" type="bidirectional"/>
+        <pin num="11" name="PD7" type="bidirectional"/>
+        <pin num="12" name="PB0" type="bidirectional"/>
+        <pin num="13" name="PB1" type="bidirectional"/>
+        <pin num="14" name="PB2" type="bidirectional"/>
+        <pin num="15" name="PB3" type="bidirectional"/>
+        <pin num="16" name="PB4" type="bidirectional"/>
+        <pin num="17" name="PB5" type="bidirectional"/>
+        <pin num="18" name="AVCC" type="power_in"/>
+        <pin num="19" name="ADC6" type="input"/>
+        <pin num="20" name="AREF" type="passive"/>
+        <pin num="21" name="GND" type="passive"/>
+        <pin num="22" name="ADC7" type="input"/>
+        <pin num="23" name="PC0" type="bidirectional"/>
+        <pin num="24" name="PC1" type="bidirectional"/>
+        <pin num="25" name="PC2" type="bidirectional"/>
+        <pin num="26" name="PC3" type="bidirectional"/>
+        <pin num="27" name="PC4" type="bidirectional"/>
+        <pin num="28" name="PC5" type="bidirectional"/>
+        <pin num="29" name="~{RESET}/PC6" type="bidirectional"/>
+        <pin num="30" name="PD0" type="bidirectional"/>
+        <pin num="31" name="PD1" type="bidirectional"/>
+        <pin num="32" name="PD2" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="Fiducial">
+      <description>Fiducial Marker</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Fiducial*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FID</field>
+        <field name="Value">Fiducial</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Potentiometer_Digital" part="AD5280">
+      <description>Digital potentiometer, 256 position, single output, I2C interface</description>
+      <docs>https://www.analog.com/media/en/technical-documentation/data-sheets/AD5280_5282.pdf</docs>
+      <footprints>
+        <fp>TSSOP*4.4x5mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AD5280</field>
+        <field name="Footprint">Package_SO:TSSOP-14_4.4x5mm_P0.65mm</field>
+        <field name="Datasheet">https://www.analog.com/media/en/technical-documentation/data-sheets/AD5280_5282.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="W" type="passive"/>
+        <pin num="3" name="B" type="passive"/>
+        <pin num="4" name="VDD" type="power_in"/>
+        <pin num="5" name="~{SHDN}" type="input"/>
+        <pin num="6" name="SCL" type="input"/>
+        <pin num="7" name="SDA" type="bidirectional"/>
+        <pin num="8" name="AD0" type="input"/>
+        <pin num="9" name="AD1" type="input"/>
+        <pin num="10" name="GND" type="power_in"/>
+        <pin num="11" name="VSS" type="power_in"/>
+        <pin num="12" name="O2" type="output"/>
+        <pin num="13" name="VLOG" type="power_in"/>
+        <pin num="14" name="O1" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="NCP1117-5.0_TO252">
+      <description>1A Low drop-out regulator, Fixed Output 5.0V, TO-252 (DPAK)</description>
+      <docs>http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF</docs>
+      <footprints>
+        <fp>TO?252*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NCP1117-5.0_TO252</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TO-252-2</field>
+        <field name="Datasheet">http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_DPDT_x2">
+      <description>Switch, dual pole double throw, separate symbols</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SW*DPDT*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_DPDT_x2</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+        <pin num="4" name="A" type="passive"/>
+        <pin num="5" name="B" type="passive"/>
+        <pin num="6" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="lmm_retrofit" part="Bosch_HFM5_LMM">
+      <description>Hot-film air-mass meter, Type HFM 5</description>
+      <docs>https://mux.hs-emden-leer.de/svn/micro-projects-lmm/30_datasheets/LMM/HFM5_Datenblatt.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Bosch_HFM5_LMM</field>
+        <field name="Datasheet">https://mux.hs-emden-leer.de/svn/micro-projects-lmm/30_datasheets/LMM/HFM5_Datenblatt.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TEMP_SENS" type="input"/>
+        <pin num="2" name="12V" type="power_in"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="V_REF" type="input"/>
+        <pin num="5" name="AIR_SIG" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="lmm_retrofit" part="Bosch_old_LMM">
+      <description>Airflow meter for L Jetronic ECUs; Luftmengenmesser für Oldtimer</description>
+      <docs>https://mux.hs-emden-leer.de/svn/micro-projects-lmm/30_datasheets/L_Jetronic/_tr7_ecu.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Bosch_old_LMM</field>
+        <field name="Footprint">lmm_footprints:Bosch_L_Jetronic_7-Pin_Male_Blade_Conn</field>
+        <field name="Datasheet">https://mux.hs-emden-leer.de/svn/micro-projects-lmm/30_datasheets/L_Jetronic/_tr7_ecu.pdf</field>
+      </fields>
+      <pins>
+        <pin num="6" name="GND" type="input"/>
+        <pin num="7" name="AIR_SIG" type="input"/>
+        <pin num="8" name="AIR_TAP" type="input"/>
+        <pin num="9" name="12V" type="input"/>
+        <pin num="27" name="AIR_TEMP" type="input"/>
+        <pin num="36" name="SW_NO" type="bidirectional"/>
+        <pin num="39" name="SW_COM" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="lmm_retrofit" part="CKN12216-1-ND">
+      <description>Push button switch, four pins, both channels connected</description>
+      <docs>https://www.ckswitches.com/media/2728/pts815.pdf</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">CKN12216-1-ND</field>
+        <field name="Footprint">lmm_footprints:PTS815_SMT_Push_Button</field>
+        <field name="Datasheet">https://www.ckswitches.com/media/2728/pts815.pdf</field>
+        <field name="Digi-Key Part Number">CKN12216-1-ND</field>
+        <field name="MPN">PTS815 SJK 250 SMTR LFS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="lmm_retrofit" part="D5V0F4U6SO-7">
+      <description>12V Clamp 3A (8/20µs) Ipp Tvs Diode Surface Mount SOT-26</description>
+      <docs>https://www.diodes.com/assets/Datasheets/D5V0F4U6SO.pdf</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D5V0F4U6SO-7</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/D5V0F4U6SO.pdf</field>
+        <field name="Digi-Key Part Number">D5V0F4U6SO-7DICT-ND</field>
+        <field name="MPN">D5V0F4U6SO-7</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CH_1" type="bidirectional"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="CH_2" type="bidirectional"/>
+        <pin num="4" name="CH_3" type="bidirectional"/>
+        <pin num="5" name="VDD" type="power_in"/>
+        <pin num="6" name="CH_4" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="lmm_retrofit" part="DAC101C085CIMM{slash}NOPB">
+      <description>10 Bit Digital to Analog Converter 1 8-VSSOP</description>
+      <docs>http://www.ti.com/lit/ds/symlink/dac101c081.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DAC101C085CIMM{slash}NOPB</field>
+        <field name="Footprint">Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/dac101c081.pdf</field>
+        <field name="Digi-Key Part Number">DAC101C085CIMM/NOPBCT-ND</field>
+        <field name="MPN">DAC101C085CIMM/NOPB</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ADR0" type="input"/>
+        <pin num="2" name="ADR1" type="input"/>
+        <pin num="3" name="SCL" type="input"/>
+        <pin num="4" name="SDA" type="bidirectional"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="VA" type="power_in"/>
+        <pin num="7" name="VREF" type="input"/>
+        <pin num="8" name="VOUT" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="lmm_retrofit" part="DM1231">
+      <description>14V Clamp 7A (8/20µs) Ipp Tvs Diode Surface Mount SOT-26</description>
+      <docs>https://media.digikey.com/pdf/Data%20Sheets/Diodes%20PDFs/DM1231-02SO.pdf</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DM1231</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">https://media.digikey.com/pdf/Data%20Sheets/Diodes%20PDFs/DM1231-02SO.pdf</field>
+        <field name="Digi-Key Part Number">DM1231-02SO-7DICT-ND</field>
+        <field name="MPN">DM1231-02SO-7</field>
+      </fields>
+      <pins>
+        <pin num="1" name="AOUT" type="output"/>
+        <pin num="2" name="VNeg" type="output"/>
+        <pin num="3" name="AIN" type="input"/>
+        <pin num="4" name="BIN" type="input"/>
+        <pin num="5" name="VPos" type="output"/>
+        <pin num="6" name="BOUT" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="lmm_retrofit" part="G8G">
+      <description>AUTO MOTIVE PCB RELAY, DC 12V</description>
+      <docs>https://components.omron.com/us-en/datasheet_pdf/J263-E1.pdf</docs>
+      <footprints>
+        <fp>Relay*SPDT*Omron*G6E*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">G8G</field>
+        <field name="Footprint">Relay_THT:Relay_SPDT_Omron_G6E</field>
+        <field name="Datasheet">https://components.omron.com/us-en/datasheet_pdf/J263-E1.pdf</field>
+        <field name="Digi-Key Part Number">39-G8G-1A7RDC12BYOMR1-ND</field>
+        <field name="MPN">G8G-1A7R DC12 BY OMR1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="lmm_retrofit" part="TLV271">
+      <description>General Purpose Amplifier 1 Circuit Rail-to-Rail 8-SOIC</description>
+      <docs>https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftlv271-q1</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLV271</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftlv271-q1</field>
+        <field name="Digi-Key Part Number">296-38281-1-ND</field>
+        <field name="MPN">TLV271QDRQ1</field>
+      </fields>
+      <pins>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="6" name="" type="output"/>
+        <pin num="7" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Interface_USB">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Interface_USB.kicad_sym</uri>
+    </library>
+    <library logical="MCU_Microchip_ATmega">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/MCU_Microchip_ATmega.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Potentiometer_Digital">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Potentiometer_Digital.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+    <library logical="lmm_retrofit">
+      <uri>S:\OneDrive\OneDrive - stud.hs-emden-leer.de\Hochschule\Bachelorarbeit\micro-projects-lmm\15_source-hardware\kicad_files/kicad_libraries/lmm_retrofit.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D12" pin="5" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D13" pin="5" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="FB1" pin="2" pintype="passive"/>
+      <node ref="FB2" pin="1" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R33" pin="2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="18" pinfunction="AVCC" pintype="power_in"/>
+      <node ref="U2" pin="4" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U2" pin="6" pinfunction="VCC" pintype="passive"/>
+      <node ref="U4" pin="13" pinfunction="VLOG" pintype="power_in"/>
+      <node ref="U4" pin="5" pinfunction="~{SHDN}" pintype="input"/>
+      <node ref="U5" pin="6" pinfunction="VA" pintype="power_in"/>
+    </net>
+    <net code="3" name="+5VP">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D8" pin="5" pinfunction="VPos" pintype="output"/>
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="TP12" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="VREGIN" pintype="power_in"/>
+    </net>
+    <net code="4" name="+BATT">
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="D15" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="F2" pin="2" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="12V" pintype="power_in"/>
+      <node ref="K1" pin="1" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+      <node ref="R30" pin="2" pintype="passive"/>
+      <node ref="TP21" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="VI" pintype="power_in"/>
+      <node ref="U4" pin="4" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U6" pin="7" pinfunction="V+" pintype="power_in"/>
+    </net>
+    <net code="5" name="/5V_REG">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="FB1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="VO" pintype="power_out"/>
+    </net>
+    <net code="6" name="/A0{slash}SIG">
+      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="R32" pin="2" pintype="passive"/>
+      <node ref="U2" pin="23" pinfunction="PC0" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/A1{slash}TEMP">
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="D13" pin="4" pinfunction="CH_3" pintype="bidirectional"/>
+      <node ref="J5" pin="1" pinfunction="TEMP_SENS" pintype="input"/>
+      <node ref="SW4" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="SW4" pin="5" pinfunction="B" pintype="passive"/>
+      <node ref="TP17" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="24" pinfunction="PC1" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/A2">
+      <node ref="U2" pin="25" pinfunction="PC2" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/A3">
+      <node ref="U2" pin="26" pinfunction="PC3" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/A4{slash}SDA">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="27" pinfunction="PC4" pintype="bidirectional"/>
+      <node ref="U4" pin="7" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="U5" pin="4" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/A5{slash}SCL">
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="28" pinfunction="PC5" pintype="bidirectional"/>
+      <node ref="U4" pin="6" pinfunction="SCL" pintype="input"/>
+      <node ref="U5" pin="3" pinfunction="SCL" pintype="input"/>
+    </net>
+    <net code="12" name="/A6{slash}BATT">
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="R30" pin="1" pintype="passive"/>
+      <node ref="R31" pin="2" pintype="passive"/>
+      <node ref="U2" pin="19" pinfunction="ADC6" pintype="input"/>
+    </net>
+    <net code="13" name="/A7">
+      <node ref="U2" pin="22" pinfunction="ADC7" pintype="input"/>
+    </net>
+    <net code="14" name="/AREF">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="U2" pin="20" pinfunction="AREF" pintype="passive"/>
+    </net>
+    <net code="15" name="/Car_Connectors_And_DAC/A">
+      <node ref="R27" pin="1" pintype="passive"/>
+      <node ref="TP19" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="16" name="/Car_Connectors_And_DAC/AIR_SIG">
+      <node ref="D13" pin="6" pinfunction="CH_4" pintype="bidirectional"/>
+      <node ref="J5" pin="5" pinfunction="AIR_SIG" pintype="input"/>
+      <node ref="R32" pin="1" pintype="passive"/>
+      <node ref="TP15" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="17" name="/Car_Connectors_And_DAC/B">
+      <node ref="Q1" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R26" pin="2" pintype="passive"/>
+    </net>
+    <net code="18" name="/Car_Connectors_And_DAC/C">
+      <node ref="D11" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K1" pin="2" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="19" name="/Car_Connectors_And_DAC/OUT_SIG">
+      <node ref="D12" pin="4" pinfunction="CH_3" pintype="bidirectional"/>
+      <node ref="J4" pin="7" pinfunction="AIR_SIG" pintype="input"/>
+      <node ref="R28" pin="2" pintype="passive"/>
+      <node ref="TP16" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U6" pin="6" pintype="output"/>
+    </net>
+    <net code="20" name="/Car_Connectors_And_DAC/OUT_SW_COM">
+      <node ref="J4" pin="39" pinfunction="SW_COM" pintype="bidirectional"/>
+      <node ref="K1" pin="4" pintype="passive"/>
+      <node ref="K1" pin="5" pintype="passive"/>
+    </net>
+    <net code="21" name="/Car_Connectors_And_DAC/OUT_SW_NO">
+      <node ref="D14" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J4" pin="36" pinfunction="SW_NO" pintype="bidirectional"/>
+      <node ref="K1" pin="6" pintype="passive"/>
+    </net>
+    <net code="22" name="/Car_Connectors_And_DAC/OUT_TAP">
+      <node ref="D12" pin="3" pinfunction="CH_2" pintype="bidirectional"/>
+      <node ref="J4" pin="8" pinfunction="AIR_TAP" pintype="input"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="TP18" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="23" name="/Car_Connectors_And_DAC/OUT_TEMP">
+      <node ref="D12" pin="1" pinfunction="CH_1" pintype="bidirectional"/>
+      <node ref="J4" pin="27" pinfunction="AIR_TEMP" pintype="input"/>
+      <node ref="SW4" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="TP20" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="24" name="/Car_Connectors_And_DAC/POT_TEMP">
+      <node ref="R27" pin="2" pintype="passive"/>
+      <node ref="SW4" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="25" name="/Car_Connectors_And_DAC/TEMP_PU">
+      <node ref="R34" pin="1" pintype="passive"/>
+      <node ref="SW4" pin="4" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="26" name="/Car_Connectors_And_DAC/VIN_CAR">
+      <node ref="F2" pin="1" pintype="passive"/>
+      <node ref="J4" pin="9" pinfunction="12V" pintype="input"/>
+    </net>
+    <net code="27" name="/Car_Connectors_And_DAC/VOUT_DAC">
+      <node ref="U5" pin="8" pinfunction="VOUT" pintype="output"/>
+      <node ref="U6" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="28" name="/Car_Connectors_And_DAC/VREF_DAC">
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="U5" pin="7" pinfunction="VREF" pintype="input"/>
+    </net>
+    <net code="29" name="/Car_Connectors_And_DAC/V_FB_N">
+      <node ref="R28" pin="1" pintype="passive"/>
+      <node ref="R29" pin="1" pintype="passive"/>
+      <node ref="U6" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="30" name="/Car_Connectors_And_DAC/V_REF">
+      <node ref="C25" pin="1" pintype="passive"/>
+      <node ref="D13" pin="1" pinfunction="CH_1" pintype="bidirectional"/>
+      <node ref="D13" pin="3" pinfunction="CH_2" pintype="bidirectional"/>
+      <node ref="FB2" pin="2" pintype="passive"/>
+      <node ref="J5" pin="4" pinfunction="V_REF" pintype="input"/>
+    </net>
+    <net code="31" name="/D0{slash}UART_RX">
+      <node ref="D9" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="TP13" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="30" pinfunction="PD0" pintype="bidirectional"/>
+      <node ref="U3" pin="18" pinfunction="TXD" pintype="output"/>
+    </net>
+    <net code="32" name="/D1{slash}UART_TX">
+      <node ref="D10" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="TP14" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="31" pinfunction="PD1" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="/D2{slash}BTN1">
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U2" pin="32" pinfunction="PD2" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="/D3{slash}BTN2">
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="PD3" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="/D4{slash}RELAY">
+      <node ref="R26" pin="1" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="PD4" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="/D5{slash}LED_1">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U2" pin="9" pinfunction="PD5" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="/D6{slash}LED_2">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U2" pin="10" pinfunction="PD6" pintype="bidirectional"/>
+    </net>
+    <net code="38" name="/D7{slash}LED_ERR">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U2" pin="11" pinfunction="PD7" pintype="bidirectional"/>
+    </net>
+    <net code="39" name="/D8">
+      <node ref="U2" pin="12" pinfunction="PB0" pintype="bidirectional"/>
+    </net>
+    <net code="40" name="/D9{slash}~{CS2}">
+      <node ref="U2" pin="13" pinfunction="PB1" pintype="bidirectional"/>
+    </net>
+    <net code="41" name="/D10{slash}~{CS1}">
+      <node ref="TP5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="14" pinfunction="PB2" pintype="bidirectional"/>
+    </net>
+    <net code="42" name="/D11{slash}MOSI">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="TP7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="15" pinfunction="PB3" pintype="bidirectional"/>
+    </net>
+    <net code="43" name="/D12{slash}MISO">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="TP9" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="16" pinfunction="PB4" pintype="bidirectional"/>
+    </net>
+    <net code="44" name="/D13{slash}SCK">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="TP11" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="17" pinfunction="PB5" pintype="bidirectional"/>
+    </net>
+    <net code="45" name="/DBG_5V">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="46" name="/USB to UART/5V_USB_IN">
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="J3" pin="A4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J3" pin="A9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J3" pin="B4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J3" pin="B9" pinfunction="VBUS" pintype="passive"/>
+    </net>
+    <net code="47" name="/USB to UART/CC1">
+      <node ref="J3" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+    </net>
+    <net code="48" name="/USB to UART/CC2">
+      <node ref="J3" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+    </net>
+    <net code="49" name="/USB to UART/RXD">
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="U3" pin="17" pinfunction="RXD" pintype="input"/>
+    </net>
+    <net code="50" name="/USB to UART/USB_DN">
+      <node ref="D8" pin="1" pinfunction="AOUT" pintype="output"/>
+      <node ref="U3" pin="5" pinfunction="D-" pintype="bidirectional"/>
+    </net>
+    <net code="51" name="/USB to UART/USB_DN_IN">
+      <node ref="D8" pin="3" pinfunction="AIN" pintype="input"/>
+      <node ref="J3" pin="A7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="J3" pin="B7" pinfunction="D-" pintype="bidirectional"/>
+    </net>
+    <net code="52" name="/USB to UART/USB_DP">
+      <node ref="D8" pin="6" pinfunction="BOUT" pintype="output"/>
+      <node ref="U3" pin="4" pinfunction="D+" pintype="bidirectional"/>
+    </net>
+    <net code="53" name="/USB to UART/USB_DP_IN">
+      <node ref="D8" pin="4" pinfunction="BIN" pintype="input"/>
+      <node ref="J3" pin="A6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="J3" pin="B6" pinfunction="D+" pintype="bidirectional"/>
+    </net>
+    <net code="54" name="/USB to UART/VBUS">
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="U3" pin="8" pinfunction="VBUS" pintype="input"/>
+    </net>
+    <net code="55" name="/USB to UART/~{RST}">
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="U3" pin="9" pinfunction="~{RST}" pintype="input"/>
+    </net>
+    <net code="56" name="/XTAL1">
+      <node ref="U2" pin="7" pinfunction="XTAL1/PB6" pintype="bidirectional"/>
+      <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="57" name="/XTAL2">
+      <node ref="U2" pin="8" pinfunction="XTAL2/PB7" pintype="bidirectional"/>
+      <node ref="Y1" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="58" name="/~{DTR}">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U3" pin="16" pinfunction="~{RTS}" pintype="output"/>
+    </net>
+    <net code="59" name="/~{RESET}">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U2" pin="29" pinfunction="~{RESET}/PC6" pintype="bidirectional"/>
+    </net>
+    <net code="60" name="GND">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="C25" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D12" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="D13" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="D14" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D15" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D8" pin="2" pinfunction="VNeg" pintype="output"/>
+      <node ref="H1" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H2" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H3" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H4" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J3" pin="A1" pinfunction="GND" pintype="passive"/>
+      <node ref="J3" pin="A12" pinfunction="GND" pintype="passive"/>
+      <node ref="J3" pin="B1" pinfunction="GND" pintype="passive"/>
+      <node ref="J3" pin="B12" pinfunction="GND" pintype="passive"/>
+      <node ref="J3" pin="S1" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J4" pin="6" pinfunction="GND" pintype="input"/>
+      <node ref="J5" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="Q1" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="R29" pin="2" pintype="passive"/>
+      <node ref="R31" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="SW1" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="TP10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="21" pinfunction="GND" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="5" pinfunction="GND" pintype="passive"/>
+      <node ref="U3" pin="12" pinfunction="GND" pintype="passive"/>
+      <node ref="U3" pin="21" pinfunction="GND" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="10" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="11" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U4" pin="2" pinfunction="W" pintype="passive"/>
+      <node ref="U5" pin="1" pinfunction="ADR0" pintype="input"/>
+      <node ref="U5" pin="2" pinfunction="ADR1" pintype="input"/>
+      <node ref="U5" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="4" pinfunction="V-" pintype="power_in"/>
+      <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="61" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="62" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="63" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="64" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="65" name="Net-(D6-Pad2)">
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+    </net>
+    <net code="66" name="Net-(D9-Pad2)">
+      <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+    </net>
+    <net code="67" name="Net-(D10-Pad2)">
+      <node ref="D10" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+    </net>
+    <net code="68" name="Net-(D11-Pad1)">
+      <node ref="D11" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+    </net>
+    <net code="69" name="Net-(R6-Pad2)">
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="70" name="Net-(R8-Pad2)">
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="SW3" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="71" name="Net-(R33-Pad1)">
+      <node ref="R33" pin="1" pintype="passive"/>
+      <node ref="R34" pin="2" pintype="passive"/>
+    </net>
+    <net code="72" name="unconnected-(D12-Pad6)">
+      <node ref="D12" pin="6" pinfunction="CH_4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="73" name="unconnected-(J2-Pad6)">
+      <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive+no_connect"/>
+    </net>
+    <net code="74" name="unconnected-(J3-PadA8)">
+      <node ref="J3" pin="A8" pinfunction="SBU1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="75" name="unconnected-(J3-PadB8)">
+      <node ref="J3" pin="B8" pinfunction="SBU2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="76" name="unconnected-(SW4-Pad6)">
+      <node ref="SW4" pin="6" pinfunction="C" pintype="passive+no_connect"/>
+    </net>
+    <net code="77" name="unconnected-(U3-Pad1)">
+      <node ref="U3" pin="1" pinfunction="RS485/GPIO.1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="78" name="unconnected-(U3-Pad2)">
+      <node ref="U3" pin="2" pinfunction="CLK/GPIO.0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="79" name="unconnected-(U3-Pad10)">
+      <node ref="U3" pin="10" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="80" name="unconnected-(U3-Pad11)">
+      <node ref="U3" pin="11" pinfunction="~{SUSPEND}" pintype="output+no_connect"/>
+    </net>
+    <net code="81" name="unconnected-(U3-Pad13)">
+      <node ref="U3" pin="13" pinfunction="~{WAKEUP}" pintype="input+no_connect"/>
+    </net>
+    <net code="82" name="unconnected-(U3-Pad14)">
+      <node ref="U3" pin="14" pinfunction="SUSPEND" pintype="output+no_connect"/>
+    </net>
+    <net code="83" name="unconnected-(U3-Pad15)">
+      <node ref="U3" pin="15" pinfunction="~{CTS}" pintype="input+no_connect"/>
+    </net>
+    <net code="84" name="unconnected-(U3-Pad19)">
+      <node ref="U3" pin="19" pinfunction="~{RXT}/GPIO.3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="85" name="unconnected-(U3-Pad20)">
+      <node ref="U3" pin="20" pinfunction="~{TXT}/GPIO.2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="86" name="unconnected-(U4-Pad3)">
+      <node ref="U4" pin="3" pinfunction="B" pintype="passive+no_connect"/>
+    </net>
+    <net code="87" name="unconnected-(U4-Pad8)">
+      <node ref="U4" pin="8" pinfunction="AD0" pintype="input"/>
+    </net>
+    <net code="88" name="unconnected-(U4-Pad9)">
+      <node ref="U4" pin="9" pinfunction="AD1" pintype="input"/>
+    </net>
+    <net code="89" name="unconnected-(U4-Pad12)">
+      <node ref="U4" pin="12" pinfunction="O2" pintype="output+no_connect"/>
+    </net>
+    <net code="90" name="unconnected-(U4-Pad14)">
+      <node ref="U4" pin="14" pinfunction="O1" pintype="output+no_connect"/>
+    </net>
+  </nets>
+</export>

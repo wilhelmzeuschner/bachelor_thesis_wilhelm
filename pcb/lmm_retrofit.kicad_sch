@@ -1,0 +1,483 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
+	(paper "A4")
+	(title_block
+		(title "LMM Retrofit")
+		(date "2022-05-08")
+		(rev "1")
+		(company "Hans Wilhelm Zeuschner")
+		(comment 1 "Zweitprüfer: Ewald Zimmermann B. Eng.")
+		(comment 2 "Betreuer: Prof. Dr. Carsten Koch")
+		(comment 3 "Hochschule Emden Leer")
+		(comment 4 "Bacheloarbeit SoSe 2022")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 58.42 41.91) (xy 80.645 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50a02483-2dcd-4582-8615-2dcd5e50515b")
+	)
+	(wire
+		(pts
+			(xy 58.42 78.74) (xy 80.645 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61cb12f1-b8be-4ee9-927a-a72ce12278b6")
+	)
+	(wire
+		(pts
+			(xy 58.42 27.305) (xy 80.645 27.305)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b7cfdad-f77f-4da0-b00d-5aeb8206c692")
+	)
+	(wire
+		(pts
+			(xy 58.42 36.83) (xy 80.645 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ff881c1-6aa9-44f2-8252-b9f3c2735231")
+	)
+	(wire
+		(pts
+			(xy 58.42 34.29) (xy 80.645 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a44cbeac-5d77-4055-96b7-ae99aa36920e")
+	)
+	(wire
+		(pts
+			(xy 58.42 29.845) (xy 80.645 29.845)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb5be9f4-f47e-4201-a82c-84c1ce9db249")
+	)
+	(wire
+		(pts
+			(xy 58.42 81.28) (xy 80.645 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc366256-0132-43d2-aea0-04d2202b07a7")
+	)
+	(wire
+		(pts
+			(xy 58.42 72.39) (xy 80.645 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da7089c2-0400-4938-a71e-0eca431da20c")
+	)
+	(wire
+		(pts
+			(xy 58.42 24.765) (xy 80.645 24.765)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "feb268a0-501e-4e0c-bf4d-1efbdb1e49cf")
+	)
+	(sheet
+		(at 19.685 67.31)
+		(size 38.735 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a72f5a12-53b8-4376-867f-f3f62566bbde")
+		(property "Sheetname" "USB to UART"
+			(at 19.685 66.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb_to_uart.kicad_sch"
+			(at 19.685 88.2146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_UART_RX" input
+			(at 58.42 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a3c4da86-37da-4446-ac73-a6caf37ba967")
+		)
+		(pin "USB_UART_TX" output
+			(at 58.42 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b18fa026-73a8-4975-ad9e-c8032ae99072")
+		)
+		(pin "~{RTS}" output
+			(at 58.42 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "70e813ba-915e-4047-a3c9-e95e44234768")
+		)
+		(instances
+			(project "lmm_retrofit"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 48.895)
+		(size 38.735 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d384f8f0-d19d-4a7a-bb0c-1b4dccb3b034")
+		(property "Sheetname" "Mechanical"
+			(at 139.7 48.1834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Mechanical.kicad_sch"
+			(at 139.7 69.7996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "lmm_retrofit"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 19.685 21.59)
+		(size 38.735 24.13)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e509f35e-cb04-4cdb-be88-2ba12fde284d")
+		(property "Sheetname" "Car_Connectors_And_DAC"
+			(at 19.685 20.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Car_Connectors_And_DAC.kicad_sch"
+			(at 19.685 46.3046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SCL" input
+			(at 58.42 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "68b4ce99-739c-4619-8f77-8223dfc2a7ac")
+		)
+		(pin "SDA" bidirectional
+			(at 58.42 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c40eef5b-9374-4cb5-88cb-84ac7e4940e1")
+		)
+		(pin "IN_SIG" output
+			(at 58.42 24.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "70d0b3a9-7d68-4827-8817-1391de7f0ac2")
+		)
+		(pin "IN_TEMP" output
+			(at 58.42 27.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3de21d82-494e-47f8-82ab-dfd9643668a0")
+		)
+		(pin "RELAY_CNTR" input
+			(at 58.42 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "eca19525-08ab-4e70-ab62-6ae3599dffa7")
+		)
+		(pin "SENSE_BATT" output
+			(at 58.42 29.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ae43804a-fcb9-46a2-b199-6945cb460f81")
+		)
+		(instances
+			(project "lmm_retrofit"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 20.32)
+		(size 38.735 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f9f3a5e7-f215-43c5-a219-22e7dfb4b3a0")
+		(property "Sheetname" "Power"
+			(at 139.7 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 139.7 41.2246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "lmm_retrofit"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 80.645 20.32)
+		(size 50.8 67.31)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "faedd514-d821-4f60-812c-d6e304c000d2")
+		(property "Sheetname" "Microcontroller"
+			(at 80.645 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Microcontroller.kicad_sch"
+			(at 80.645 88.2146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "A1{slash}TEMP" input
+			(at 80.645 27.305 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6e31ab4f-7fb3-4802-b22a-75ff3665a03c")
+		)
+		(pin "A0{slash}SIG" input
+			(at 80.645 24.765 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9f0e85ec-ffe6-4aaa-adf8-3bc445ed05f9")
+		)
+		(pin "A6{slash}BATT" input
+			(at 80.645 29.845 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9dff5dce-5260-4a96-bf6e-d8979562552f")
+		)
+		(pin "D1{slash}UART_TX" output
+			(at 80.645 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bcb01ef2-a2e7-45f8-8621-22569050139c")
+		)
+		(pin "D0{slash}UART_RX" input
+			(at 80.645 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5c6456ae-d95b-4918-8582-85877a7bfd68")
+		)
+		(pin "D4{slash}RELAY" output
+			(at 80.645 41.91 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2fe7293c-e814-4ad6-a964-4fca7fcd0d99")
+		)
+		(pin "A4{slash}SDA" bidirectional
+			(at 80.645 36.83 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5f09da50-8422-4448-8f4b-ce04753faae0")
+		)
+		(pin "A5{slash}SCL" output
+			(at 80.645 34.29 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d1ae1b9a-34c8-4d5d-97b6-a20e054c1d4a")
+		)
+		(pin "~{RTS}" input
+			(at 80.645 72.39 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cf6ca689-cdb7-400e-a9ba-0555ea4dd4ec")
+		)
+		(instances
+			(project "lmm_retrofit"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

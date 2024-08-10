@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "lmm_retrofit")(type "KiCad")(uri "${KIPRJMOD}/kicad_libraries/lmm_retrofit.kicad_sym")(options "")(descr ""))
+)

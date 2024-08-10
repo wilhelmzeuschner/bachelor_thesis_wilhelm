@@ -1,0 +1,58 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,Digi-Key Part Number,MPN,Color,DNF,Info
+1,"Unpolarized capacitor, small symbol",C_Small,C1 C2 C4 C5 C7 C8 C9 C10 C14 C16 C17 C18 C20 C21 C22 C23 C24,100nF,C_0805_2012Metric,17,https://www.yuden.co.jp/productdata/catalog/mlcc_all_hq_e.pdf,587-3508-1-ND,UMK212B7104KGHT,,,
+2,"Unpolarized capacitor, small symbol",C_Small,C3 C6 C11 C12 C13 C15 C19 C25,10uF,C_0805_2012Metric,8,https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=MCAST21GBB5106MTNA01&u=M,587-6440-1-ND,TMK212BBJ106MGHT,,,
+3,"Light emitting diode, small symbol",LED_Small,D6,5V USB,LED_0805_2012Metric_Silkscreen_Text,1,https://www.we-online.com/katalog/datasheet/150080GS75000.pdf,732-4983-1-ND,150080GS75000,Green,,
+4,"Schottky diode, small symbol",D_Schottky_Small,D2 D7 D11 D14,CDBA540-HF,D_SMA,4,https://media.digikey.com/pdf/Data%20Sheets/Comchip%20PDFs/CDBA540-HF-CDBA5200-HF_RevC.pdf,641-1707-1-ND,CDBA540-HF,,,
+5,12V Clamp 3A (8/20µs) Ipp Tvs Diode Surface Mount SOT-26,D5V0F4U6SO-7,D12 D13,D5V0F4U6SO-7,SOT-23-6,2,https://www.diodes.com/assets/Datasheets/D5V0F4U6SO.pdf,D5V0F4U6SO-7DICT-ND,D5V0F4U6SO-7,,,
+6,14V Clamp 7A (8/20µs) Ipp Tvs Diode Surface Mount SOT-26,DM1231,D8,DM1231,SOT-23-6,1,https://media.digikey.com/pdf/Data%20Sheets/Diodes%20PDFs/DM1231-02SO.pdf,DM1231-02SO-7DICT-ND,DM1231-02SO-7,,,
+7,"Light emitting diode, small symbol",LED_Small,D1,ERROR,LED_0805_2012Metric_Silkscreen_Text,1,https://www.we-online.com/katalog/datasheet/150080RS75000.pdf,732-4984-1-ND,150080RS75000,Red,,
+8,"Light emitting diode, small symbol",LED_Small,D4,LED1,LED_0805_2012Metric_Silkscreen_Text,1,https://www.we-online.com/katalog/datasheet/150080BS75000.pdf,732-4982-1-ND,150080BS75000,Blue,,
+9,"Light emitting diode, small symbol",LED_Small,D3,LED2,LED_0805_2012Metric_Silkscreen_Text,1,https://www.mouser.de/datasheet/2/445/150080AS75000-1879102.pdf,732-150080AS75000CT-ND,150080AS75000,Amber,,
+10,"Light emitting diode, small symbol",LED_Small,D5,PWR,LED_0805_2012Metric_Silkscreen_Text,1,https://www.we-online.com/katalog/datasheet/150080GS75000.pdf,732-4983-1-ND,150080GS75000,Green,,
+11,"Light emitting diode, small symbol",LED_Small,D9,RX,LED_0805_2012Metric_Silkscreen_Text,1,https://www.we-online.com/katalog/datasheet/150080BS75000.pdf,732-4982-1-ND,150080BS75000,Blue,,
+12,"Zener diode, small symbol",D_Zener_Small,D15,SMF18A,D_SOD-123F,1,https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smf_datasheet.pdf.pdf,F5820CT-ND,SMF18A,,,
+13,"Light emitting diode, small symbol",LED_Small,D10,TX,LED_0805_2012Metric_Silkscreen_Text,1,https://www.mouser.de/datasheet/2/445/150080AS75000-1879102.pdf,732-150080AS75000CT-ND,150080AS75000,Amber,,
+14,"Resettable fuse, polymeric positive temperature coefficient",Polyfuse,F1 F2,250mA,Fuse_1206_3216Metric,2,https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zcj-series.pdf,507-1799-1-ND,0ZCJ0025AF2E,,,
+15,"Ferrite bead, small symbol",FerriteBead_Small,FB1 FB2,1k@100MHz,L_0805_2012Metric,2,https://abracon.com/Magnetics/new/ACML-0805.pdf,535-ACML-0805-102-TCT-ND,ACML-0805-102-T,,,
+16,"Hot-film air-mass meter, Type HFM 5",Bosch_HFM5_LMM,J5,Bosch_HFM5_LMM,Bosch_Airmass_Senosor_5-Pin_Male_Blade_Connector,1,https://mux.hs-emden-leer.de/svn/micro-projects-lmm/30_datasheets/LMM/HFM5_Datenblatt.pdf,,0 280 217 531,,Do not fit,
+17,Airflow meter for L Jetronic ECUs; Luftmengenmesser für Oldtimer,Bosch_old_LMM,J4,Bosch_old_LMM,Bosch_L_Jetronic_7-Pin_Male_Blade_Conn,1,https://mux.hs-emden-leer.de/svn/micro-projects-lmm/30_datasheets/L_Jetronic/_tr7_ecu.pdf,,0 280 203 002,,Do not fit,
+18,"Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x03_Odd_Even,J1,ICSP,PinHeader_2x03_P2.54mm_Horizontal,1,https://app.adam-tech.com/products/download/data_sheet/200508/ph2ra-xx-ua-data-sheet.pdf,2057-PH2RA-06-UA-ND,PH2RA-06-UA,,,
+19,"Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x06_Female,J2,PC,PinSocket_1x06_P2.54mm_Horizontal,1,https://media.metz-connect.com/files/171/Data_sheet_FR202XXHBNN.PDF,1849-FR20206HBNN-ND,FR20206HBNN,,,
+20,USB 2.0-only Type-C Receptacle connector,USB_C_Receptacle_USB2.0,J3,USB_C_Receptacle_USB2.0,USB_C_Receptacle_GCT_USB4105-GF-A,1,https://gct.co/files/drawings/usb4105.pdf,2073-USB4105-GF-ACT-ND,USB4105-GF-A,,,
+21,"AUTO MOTIVE PCB RELAY, DC 12V",G8G,K1,G8G,G8G__SPST,1,https://components.omron.com/us-en/datasheet_pdf/J263-E1.pdf,39-G8G-1A7RDC12BYOMR1-ND,G8G-1A7R DC12 BY OMR1,,,
+22,"NPN transistor, base/emitter/collector",Q_NPN_BEC,Q1,MMBT4401-7-F,SOT-23,1,https://www.comchiptech.com/admin/files/product/QW-JTR91%20MMBT4401-HF%20RevB.pdf,641-MMBT4401-HFCT-ND,MMBT4401-HF,,,
+23,"Resistor, small symbol",R_Small,R27,0R,R_0805_2012Metric,1,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_8.pdf,YAG3755CT-ND,AC0805JR-070RL,,,Populate with value >0R if voltage on A pin would be too high.
+24,"Resistor, small symbol",R_Small,R23 R24,182,R_0805_2012Metric,2,https://www.vishay.com/docs/20035/dcrcwe3.pdf,541-182CCT-ND,CRCW0805182RFKEA,,,
+25,"Resistor, small symbol",R_Small,R22 R25,200,R_0805_2012Metric,2,https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/esr-e.pdf,RHM200AECT-ND,ESR10EZPF2000,,,
+26,"Resistor, small symbol",R_Small,R6 R8 R17 R26 R33 R34,1k,R_0805_2012Metric,6,https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English,A129749CT-ND,CRGCQ0805F1K0,,,
+27,"Resistor, small symbol",R_Small,R10 R11 R12 R13 R20,5.1k,R_0805_2012Metric,5,https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204&DocType=DS&DocLang=English,A126379CT-ND,CRG0805F5K1,,,
+28,"Resistor, small symbol",R_Small,R1 R2 R3 R4 R5 R7 R9 R14 R18 R19 R21 R28 R29 R32,10k,R_0805_2012Metric,14,https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English,A130140CT-ND,CRGCQ0805J10K,,,
+29,"Resistor, small symbol",R_Small,R15 R31,22.1k,R_0805_2012Metric,2,https://www.bourns.com/docs/product-datasheets/cr.pdf?sfvrsn=574d41f6_14,CR0805-FX-2212ELFCT-ND,CR0805-FX-2212ELF,,,
+30,"Resistor, small symbol",R_Small,R16 R30,47.5k,R_0805_2012Metric,2,https://www.bourns.com/docs/product-datasheets/cr.pdf?sfvrsn=574d41f6_14,118-CR0805-FX-4752ELFCT-ND,CR0805-FX-4752ELF,,,
+31,"Push button switch, generic, two pins",SW_Push,SW3,BTN1,SW_PUSH_6mm_H9.5mm,1,https://www.cuidevices.com/product/resource/ts03.pdf,2223-TS03-66-95-BK-260-LCR-D-67-ND,TS03-66-95-BK-260-LCR-D-67,,,
+32,"Push button switch, generic, two pins",SW_Push,SW2,BTN2,SW_PUSH_6mm_H9.5mm,1,https://www.cuidevices.com/product/resource/ts03.pdf,2223-TS03-66-95-BK-260-LCR-D-67-ND,TS03-66-95-BK-260-LCR-D-67,,,
+33,"Push button switch, four pins, both channels connected",CKN12216-1-ND,SW1,Reset,PTS815_SMT_Push_Button,1,https://www.ckswitches.com/media/2728/pts815.pdf,CKN12216-1-ND,PTS815 SJK 250 SMTR LFS,,,
+34,"Switch, dual pole double throw, separate symbols",SW_DPDT_x2,SW4,Thermistor select,JS202011SCQN,1,https://www.ckswitches.com/media/1422/js.pdf,401-2002-1-ND,JS202011SCQN,,,
+35,"Digital potentiometer, 256 position, single output, I2C interface",AD5280,U4,AD5280,TSSOP-14_4.4x5mm_P0.65mm,1,https://www.analog.com/media/en/technical-documentation/data-sheets/AD5280_5282.pdf,AD5280BRUZ50-ND,AD5280BRUZ50,,,
+36,"20MHz, 16kB Flash, 1kB SRAM, 512B EEPROM, TQFP-32",ATmega168-20A,U2,ATmega168-20A,TQFP-32_7x7mm_P0.8mm,1,http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2545-8-bit-AVR-Microcontroller-ATmega48-88-168_Datasheet.pdf,ATMEGA168-20AU-ND,ATMEGA168-20AU,,,
+37,"USB to UART master bridge, QFN-20",CP2102N-Axx-xQFN20,U3,CP2102N-A02-GQFN20,SiliconLabs_QFN-20-1EP_3x3mm_P0.5mm_EP1.8x1.8mm_Center_Via,1,https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf,336-5885-ND,CP2102N-A02-GQFN20,,,
+38,10 Bit Digital to Analog Converter 1 8-VSSOP,DAC101C085CIMM{slash}NOPB,U5,DAC101C085CIMM/NOPB,VSSOP-8_3.0x3.0mm_P0.65mm,1,http://www.ti.com/lit/ds/symlink/dac101c081.pdf,DAC101C085CIMM/NOPBCT-ND,DAC101C085CIMM/NOPB,,,
+39,"1A Low drop-out regulator, Fixed Output 5.0V, TO-252 (DPAK)",NCP1117-5.0_TO252,U1,NCP1117IDT50T4G,TO-252-2,1,https://www.onsemi.com/pdf/datasheet/ncp1117-d.pdf,488-NCP1117IDT50T4GCT-ND,NCP1117IDT50T4G,,,
+40,General Purpose Amplifier 1 Circuit Rail-to-Rail 8-SOIC,TLV271,U6,TLV271,SOIC-8_3.9x4.9mm_P1.27mm,1,https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftlv271-q1,296-38281-1-ND,TLV271QDRQ1,,,
+41,"Three pin ceramic resonator, small symbol",Resonator_Small,Y1,16MHz,Resonator_SMD_Murata_CSTxExxV-3Pin_3.0x1.1mm,1,https://www.murata.com/en/products/productdata/8801162231838/SPEC-CSTNE16M0V530000R0.pdf,490-17948-1-ND,CSTNE16M0V530000R0,,,
+
+
+
+
+
+Component Groups:,41
+Component Count:,96
+Fitted Components:,96
+Number of PCBs:,1
+Total components:,96
+Schematic Version:,1
+Schematic Date:,2022-05-08
+PCB Variant:,default
+BoM Date:,22/05/2022 21:42:45
+Schematic Source:,lmm_retrofit.kicad_sch
+KiCad Version:,Eeschema (6.0.5)
